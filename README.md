@@ -22,8 +22,8 @@ A collection of Machine Learning projects, experiments, and tutorials designed f
 Welcome to ML Nexus, an open-source hub for all things machine learning. This repository houses a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're a newcomer or a seasoned expert, you'll find something to contribute to. Dive into the world of neural networks, computer vision, NLP, and more. Join the community, share your ideas, and help shape the future of AI together!
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Natural Language Processing (NLP)</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing">Natural Language Processing (NLP)</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Natural Language Processing (NLP)</a>
 Projects in this area involve working with text data, such as sentiment analysis, language translation, text summarization, and chatbot development using techniques like tokenization, word embeddings, and transformers.
@@ -33,8 +33,8 @@ Projects in this area involve working with text data, such as sentiment analysis
 <br>
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Computer Vision</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/cv.jpg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Computer%20Vision">Computer Vision</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Computer%20Vision"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/cv.jpg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Computer Vision</a>
 Contributors can explore projects related to image classification, object detection, facial recognition, and image segmentation using tools like OpenCV, convolutional neural networks (CNNs), and transfer learning.
@@ -44,8 +44,8 @@ Contributors can explore projects related to image classification, object detect
 <br>
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Neural Networks</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nn.jpeg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Neural%20Networks">Neural Networks</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Neural%20Networks"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nn.jpeg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Neural Networks</a>
 Neural networks power most deep learning models. Contributions could include creating models for image classification, regression tasks, sequence prediction, and generative models using frameworks like TensorFlow or PyTorch.
@@ -55,8 +55,8 @@ Neural networks power most deep learning models. Contributions could include cre
 <br>
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Generative Models</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/gm.jpeg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Generative%20Models">Generative Models</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Generative%20Models"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/gm.jpeg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Generative Models</a>
 This includes working on projects related to Generative Adversarial Networks (GANs) for image generation, text-to-image models, or style transfer, contributing to fields like art creation and synthetic data generation.
@@ -67,8 +67,8 @@ This includes working on projects related to Generative Adversarial Networks (GA
 
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Time Series Analysis</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/tsa.jpeg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Time%20Series%20Analysis">Time Series Analysis</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Time%20Series%20Analysis"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/tsa.jpeg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Time Series Analysis</a>
 Contributors can work on analyzing temporal data, building models for stock price prediction, climate forecasting, or IoT sensor data analysis using LSTM or GRU networks.
@@ -79,8 +79,8 @@ Contributors can work on analyzing temporal data, building models for stock pric
 <br>
 
 <p style="clear:both;">
-<h2><a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms">Transfer Learning</a></h2>
-<a href="https://github.com/akshitagupta15june/Face-X/tree/master/Recognition-Algorithms"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/tl.jpeg"
+<h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Transfer%20Learning">Transfer Learning</a></h2>
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Transfer%20Learning"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/tl.jpeg"
 style="margin:10px;" width="150px" 
 alt="Meshery - Service Mesh Management Plane" align="left" />Transfer Learning</a>
 Explore projects where pre-trained models are fine-tuned for specific tasks, such as custom object detection or domain-specific text classification, reducing the need for extensive training data.
