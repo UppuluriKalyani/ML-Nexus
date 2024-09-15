@@ -121,8 +121,8 @@ git clone --depth 1 https://github.com/<your_user_name>/ML-Nexus.git
 ```bash
 pip install -r requirements.txt
 ```
-- Have a look at [Contributing Guidelines](https://github.com/akshitagupta15june/Face-X/blob/master/CONTRIBUTING.md)
-- Read the [Code of Conduct](https://github.com/akshitagupta15june/Face-X/blob/master/CODE_OF_CONDUCT.md)
+- Have a look at [Contributing Guidelines](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CONTRIBUTING.md)
+- Read the [Code of Conduct](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md)
 
 </br>
 
