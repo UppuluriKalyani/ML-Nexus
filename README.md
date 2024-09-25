@@ -1,5 +1,4 @@
 <div align="center">
-
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"><img src="https://img.shields.io/github/issues/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/pulls"><img src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/network/members"><img src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus"></a>
