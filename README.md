@@ -3,8 +3,11 @@
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/pulls"><img src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/network/members"><img src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/stargazers"><img src="https://img.shields.io/github/stars/UppuluriKalyani/ML-Nexus"></a>
-
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UppuluriKalyani/ML-Nexus?color=2b9348"></a>
+	
+### Welcome to the ML-NEXUS Zone⚙️⏳
 </div>
+
 
 # ML-Nexus
 
