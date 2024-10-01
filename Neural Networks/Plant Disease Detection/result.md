@@ -19,7 +19,7 @@ The classification model achieved an impressive accuracy of **98.02%** on the te
 
 
 ### Performance Chart
-![Performance Chart](Neural Networks/Plant Disease Detection/assets/images/potato_result_graph.png)
+![Performance Chart](assets/images/potato_result_graph.png)
 
 
 ### Conclusion
