@@ -130,21 +130,6 @@ pip install -r requirements.txt
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
-## ❤️ Project Admin
-
-<table>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/UppuluriKalyani">
-				<img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/kals.jpg" width="100px" alt="" />
-				<br /> <sub><b>Uppuluri Kalyani</b></sub>
-			</a>
-			<br /> <a href="https://github.com/UppuluriKalyani"> 
-		👑 Admin
-	    </a>
-		</td>
-	</tr>
-</table>
 
 
 <p style="clear:both;">
