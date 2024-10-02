@@ -1,0 +1,50 @@
+Title: Image Captioning model
+
+Overview:
+This implementation provides a Streamlit application that generates captions for images using the BLIP model.
+
+Dependencies:
+- Streamlit
+- PyTorch
+- Hugging Face Transformers
+- Pillow
+- Requests
+
+Installation Instructions:
+1. Clone the repository:
+   git clone https://github.com/UppuluriKalyani/ML-Nexus
+2. Navigate to the project directory:
+   cd Computer Vision
+3. Create a virtual environment (optional but recommended):
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+4. Install the required packages:
+   pip install -r requirements.txt
+
+Usage Instructions:
+1. Run the Streamlit application:
+   streamlit run image_captioningModel.py
+2. Open a web browser and go to the provided local URL.
+3. Enter an image URL and click "Generate Captions" to see the output.
+
+Features:
+- Generates conditional and unconditional captions for images.
+- Supports various image formats.
+
+Example Input and Output:
+Input: https://example.com/image.jpg
+Output:
+- Conditional Caption: "A photography of..."
+- Unconditional Caption: "A beautiful scenery..."
+
+Limitations:
+- The model performance may vary based on the input image quality.
+
+Future Work:
+- Implement functionality for uploading local images.
+
+Conclusion:
+This project demonstrates the capability of the BLIP model in generating image captions, paving the way for future developments in image processing and NLP.
+
+Acknowledgments:
+Special thanks to the authors of the BLIP model and the Hugging Face Transformers library for providing the tools used in this implementation.

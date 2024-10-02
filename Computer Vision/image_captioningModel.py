@@ -33,10 +33,9 @@ def caption_image(image_url):
 
 # Streamlit App
 st.title("Image captioning model")
-st.subheader("Note that image link must have .jpg or .jpeg or any supported image format")
 # Input field for image URL
 image_url = st.text_input("Enter the image URL:", "")
-print("Note that image link must have .jpg or .jpeg or any supplrted image format")
+
 
 # Process and display captions when the user submits an image URL
 if st.button("Generate Captions"):
