@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Virtual Try-On System (VITON) is a Python-based application that allows users to virtually try on clothing items using deep learning techniques. This project leverages a pre-trained segmentation model to overlay clothing items on images of individuals, creating a realistic virtual fitting experience.
+The Virtual Try-On System (VITON) is a Python-based application that allows users to try on clothing items virtually using deep learning techniques. This project leverages a pre-trained segmentation model to overlay clothing items on images of individuals, creating a realistic virtual fitting experience.
 
 ## Table of Contents
 
