@@ -8,7 +8,6 @@ The Virtual Try-On System (VITON) is a Python-based application that allows user
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Future Enhancements](#future-enhancements)
@@ -38,8 +37,8 @@ The Virtual Try-On System (VITON) is a Python-based application that allows user
 3. **Run the script:**
    ```bash
    python viton.py
-4.** View the Results**
-
+   
+4. **View the Results**
 The application will display the resulting image with the clothing applied to the model.
 
 ## Dataset
