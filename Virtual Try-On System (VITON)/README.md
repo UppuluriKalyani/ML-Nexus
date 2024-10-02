@@ -27,18 +27,6 @@ The Virtual Try-On System (VITON) is a Python-based application that allows user
 - OpenCV
 - torchvision
 
-## Installation
-
-To set up the Virtual Try-On System, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/viton.git
-   cd viton
-2. Install the libraries:
-  ```bash
-  pip install torch torchvision opencv-python
-
 ## Usage
 
 1. **Prepare your images:**
