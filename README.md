@@ -150,10 +150,6 @@ pip install -r requirements.txt
   <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="600" height"250" />
 </p>
           
-
-<a href="https://github.com/UppuluriKalyani/ML-Nexus/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=UppuluriKalyani/ML-Nexus" height="450" width="750" /> </a>
-
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
 
