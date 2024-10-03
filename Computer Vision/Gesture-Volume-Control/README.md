@@ -4,6 +4,10 @@
   <img alt="output" src="images/output.gif" />
  </div>
 
+
+https://github.com/user-attachments/assets/3ea5868c-73c8-444f-94ee-47b689e4ae73
+
+
 > This Project uses OpenCV and MediaPipe to Control system volume 
 
 ## 💾 REQUIREMENTS
@@ -18,10 +22,6 @@ pip install -r requirements.txt
 ```
 ***
 ### MEDIAPIPE
-<div align="center">
-  <img alt="mediapipeLogo" src="images/mediapipe.png" />
-</div>
-
 > MediaPipe offers open source cross-platform, customizable ML solutions for live and streaming media.
 
 #### Hand Landmark Model
@@ -52,11 +52,7 @@ Minimum confidence value ([0.0, 1.0]) from the landmark-tracking model for the h
 
 Source: [MediaPipe Hands Solutions](https://google.github.io/mediapipe/solutions/hands#python-solution-api)
 
-<div align="center">
-    <img alt="mediapipeLogo" src="images/hand_landmarks_docs.png" height="200 x    " />
-    <img alt="mediapipeLogo" src="images/htm.jpg" height="360 x" weight ="640 x" />
-    
-</div>
+
 
 
 ## 📝 CODE EXPLANATION
@@ -186,11 +182,4 @@ cam.release()
 ```
 ***
 
-<div align = "center">
-<h2>📬 Contact</h2>
 
-If you want to contact me, you can reach me through below handles.
-
-<a href="https://twitter.com/prrthamm"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25">@prrthamm</img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/pratham-bhatnagar/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"> Pratham Bhatnagar</img></a>
-
-</div>
