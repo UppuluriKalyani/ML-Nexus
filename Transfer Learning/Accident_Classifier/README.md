@@ -10,4 +10,4 @@
 ![Screenshot 2024-10-03 152800](https://github.com/user-attachments/assets/d03b2b71-5424-4c3c-b2ba-59f42111cd3c)
 
 [Linke of Website Hosted at ngrok](
-https://52dc-35-237-253-65.ngrok-free.app) (hostin might expire after sometime)
+https://52dc-35-237-253-65.ngrok-free.app) (hosting might expire after sometime)
