@@ -156,7 +156,7 @@ pip install -r requirements.txt
 
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
-  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/com.jpg" height="350" width="50%" align="left"/>
+
 <p>Please do! Contributions<a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> and <a href=" ">pull requests</a> are welcome.Contributors are expected to adhere to the<a href=``https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md/"> Code of Conduct</a>.
 </p>
 <p>
@@ -166,22 +166,9 @@ Jump into our <a href="https://discord.gg/DjS7Uass">Discord</a>!
 
 </p>
 
-
-
-
-<br>
-<br>
-<br>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
  <br>
  <br>
- <br>
-<br>
-<br>
-<br>
-<br>
 
  <h2 align="center">Code of Conduct</h2>
 
