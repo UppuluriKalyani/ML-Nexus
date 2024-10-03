@@ -16,7 +16,7 @@ A collection of Machine Learning projects, experiments, and tutorials designed f
 <div align="center">
   <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/Mlnexus.webp" width="200" height="200">
 </div>
-<h3>Join official <a href="https://discord.gg/DjS7Uass">Discord Channel</a> for discussion</h3>
+<h3>Join official <a href="https://discord.com/channels/1284555293778509856/1284555293778509859">Discord Channel</a> for discussion</h3>
 
 ## ML-Nexus
 
