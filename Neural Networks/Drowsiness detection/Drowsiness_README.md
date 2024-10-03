@@ -3,8 +3,7 @@
  This repository consists of a drowsiness detection based on YOLOv5 implementation. You can reach the base repo [here](https://github.com/ultralytics/yolov5)
 
 
- 
-## 1. Prepared Custom Data Set
+## 1. Prepared Custom Data Set Even Using real Time data
 
 A custom data set was prepared for this project. Videos were taken from 21 different people in scenarios that could happen while driving. Three different categories were discussed in these videos: normal, yawning and head position. Various light conditions and the use of glasses were taken into account. A total of 63 videos were obtained and labeling was done according to the method to be used.
 
