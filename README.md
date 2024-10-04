@@ -145,18 +145,19 @@ pip install -r requirements.txt
 </table>
 
 
+## 💻 Project Mentor
 
-## 💻 Project Mentors
-
-| ![Sai Nivedh V](https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4) | ![Pratyay Banerjee](https://avatars.githubusercontent.com/u/48355572?v=4) |
+| <img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="80px" /> | <img src="https://avatars.githubusercontent.com/u/48355572?v=4" width="80px" /> |
 |:---:|:---:|
-| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Neilblaze) <br> 🔧 Mentor |
+| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Nielblaze) <br> 🔧 Mentor |
+
 
 ## Contributors👩‍💻👨‍💻
 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="600" height"250" />
+  <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="700" height"250" />
 </p>
+
 
 ### Proposing Ideas💡 
 If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
