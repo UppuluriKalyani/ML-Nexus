@@ -157,7 +157,16 @@ pip install -r requirements.txt
 <p>
   <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="600" height"250" />
 </p>
-          
+
+### Proposing Ideas💡 
+If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
+
+Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
+
+- #### Pull Requests
+After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
+
+   
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
 
