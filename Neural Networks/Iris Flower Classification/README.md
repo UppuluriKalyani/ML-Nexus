@@ -102,10 +102,32 @@ The **Support Vector Machine (SVM)** achieved the highest accuracy (98%) with th
 
 Here are some example visualizations used during data exploration:
 
-1. **Pair Plot**: A visualization to show pairwise relationships between features, colored by species.
-2. **Correlation Matrix**: A heatmap to show the correlations between different features.
+1. **Pair Plot**: A visualization showing pairwise relationships between features, colored by species.  
+   ![2D Scatter Plot](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/2DScatter.png?raw=true)
 
-These visualizations help in understanding how the features are related to each other and how they contribute to the classification of the iris species.
+2. **Data Visualization**: A plot visualizing the data distribution and the relationships between features.  
+   ![Data Visualization](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/DataVisualization.png?raw=true)
+
+3. **Decision Tree**: A visual representation of the decision tree model used in the classification process.  
+   ![Decision Tree](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/DecisionTree.png?raw=true)
+
+4. **Heatmap 1**: Correlation matrix heatmap showing feature correlations.  
+   ![Heatmap](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/Heatmap.png?raw=true)
+
+5. **Heatmap 2**: An alternative version of the heatmap with enhanced visual clarity.  
+   ![Heatmap 2](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/Heatmap2.png?raw=true)
+
+6. **k-NN Visualization**: Visual representation of how the k-Nearest Neighbors algorithm classifies iris species.  
+   ![k-NN Visualization](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/KNN.png?raw=true)
+
+7. **Length Histogram**: Distribution of sepal and petal lengths across different iris species.  
+   ![Length Histogram](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/Length_Histogram.png?raw=true)
+
+8. **SVM Classification Boundaries**: Visualization of decision boundaries for the Support Vector Machine model.  
+   ![SVM](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/SVM.png?raw=true)
+
+9. **Width Histogram**: Distribution of sepal and petal widths across different iris species.  
+   ![Width Histogram](https://github.com/aviralgarg05/ML-Nexus/blob/main/Neural%20Networks/Iris%20Flower%20Classification/Width_Histogram.png?raw=true)
 
 ## Conclusion
 
@@ -121,4 +143,3 @@ This project demonstrates the process of building and evaluating machine learnin
 
 - [Iris Dataset - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris)
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/)
-
