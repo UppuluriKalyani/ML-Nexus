@@ -150,7 +150,7 @@ pip install -r requirements.txt
 
 | ![Sai Nivedh V](https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4) | ![Pratyay Banerjee](https://avatars.githubusercontent.com/u/48355572?v=4) |
 |:---:|:---:|
-| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Nielblaze) <br> 🔧 Mentor |
+| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Neilblaze) <br> 🔧 Mentor |
 
 ## Contributors👩‍💻👨‍💻
 
