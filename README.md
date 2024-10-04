@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/mlnexus.jpg" width="200" height="200">
+</div>
+<div align="center">
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"><img src="https://img.shields.io/github/issues/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/pulls"><img src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/network/members"><img src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus"></a>
@@ -10,18 +13,11 @@
 
 
 # ML-Nexus
+A dynamic hub of Machine Learning innovations, where hands-on projects and collaborative experiments come together to inspire open-source contributions and foster a community of shared learning.
 
-A collection of Machine Learning projects, experiments, and tutorials designed for open-source contribution and collaborative learning.
+This repository is a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're new to the field or a seasoned expert, there's something for everyone to contribute to. Dive into neural networks, computer vision, natural language processing (NLP), and more. Join our vibrant community, share your ideas, and help shape the future of AI—together!
 
-<div align="center">
-  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/Mlnexus.webp" width="200" height="200">
-</div>
 <h3>Join official <a href="https://discord.com/channels/1284555293778509856/1284555293778509859">Discord Channel</a> for discussion</h3>
-
-## ML-Nexus
-
-Welcome to ML Nexus, an open-source hub for all things machine learning. This repository houses a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're a newcomer or a seasoned expert, you'll find something to contribute to. Dive into the world of neural networks, computer vision, NLP, and more. Join the community, share your ideas, and help shape the future of AI together!
-
 <p style="clear:both;">
 <h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing">Natural Language Processing (NLP)</a></h2>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
@@ -144,28 +140,30 @@ pip install -r requirements.txt
 	</tr>
 </table>
 
+
 ## 💻 Project Mentor
 
-<table>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/SaiNivedh26">
-				<img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="100px" alt="" /> 
-				<br /> <sub><b>Sai Nivedh V</b></sub>
-			</a>
-			<br /> <a href="https://github.com/SaiNivedh26"> 
-		🔧 Mentor
-	    </a>
-		</td>
-	</tr>
-</table>
+| <img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="80px" /> | <img src="https://avatars.githubusercontent.com/u/48355572?v=4" width="80px" /> |
+|:---:|:---:|
+| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Nielblaze) <br> 🔧 Mentor |
+
 
 ## Contributors👩‍💻👨‍💻
 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="600" height"250" />
+  <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="700" height"250" />
 </p>
-          
+
+
+### Proposing Ideas💡 
+If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
+
+Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
+
+- #### Pull Requests
+After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
+
+   
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
 
