@@ -144,21 +144,13 @@ pip install -r requirements.txt
 	</tr>
 </table>
 
-## 💻 Project Mentor
 
-<table>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/SaiNivedh26">
-				<img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="100px" alt="" /> 
-				<br /> <sub><b>Sai Nivedh V</b></sub>
-			</a>
-			<br /> <a href="https://github.com/SaiNivedh26"> 
-		🔧 Mentor
-	    </a>
-		</td>
-	</tr>
-</table>
+
+## 💻 Project Mentors
+
+| ![Sai Nivedh V](https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4) | ![Pratyay Banerjee](https://avatars.githubusercontent.com/u/48355572?v=4) |
+|:---:|:---:|
+| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Nielblaze) <br> 🔧 Mentor |
 
 ## Contributors👩‍💻👨‍💻
 
