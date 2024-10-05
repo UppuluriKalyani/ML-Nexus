@@ -1,0 +1,6 @@
+env
+cmake-3.30.3-windows-x86_64
+*.csv
+yolov8
+face_rec.py
+runs
