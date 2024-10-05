@@ -20,7 +20,7 @@ The first plot shows all the data points in the Iris dataset with the following 
 Each point is color-coded according to its species (Setosa, Versicolor, Virginica).
 
 
-![CategoryWise Scatter Plot](/Iris Dataset Classifier/assets/images/2.png)
+![CategoryWise Scatter Plot](assets/images/2.png)
 
 ---
 
@@ -28,11 +28,12 @@ Each point is color-coded according to its species (Setosa, Versicolor, Virginic
 
 The following plot shows the decision boundaries created by the KNN algorithm. This helps us visualize the regions where the algorithm classifies a new data point into a specific class.
 
-![Decision Boundary Plot](assets/images/1.png)
+![Decision Boundary Plot](assets/images/3.png)
 
 ---
 
 ## Summary of Results
+![Decision Boundary Plot](assets/images/4.png)
 
 - The **scatter plots** show a clear separation between the species, especially between Setosa and the other two classes.
 - The **decision boundary plot** shows how the KNN algorithm divides the feature space into different regions based on the nearest neighbors.
