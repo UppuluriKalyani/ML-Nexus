@@ -6,6 +6,17 @@
 
 </div>
 
+# 📚 Table of Contents
+
+1. [Overview](#-overview)
+2. [Dataset](#-dataset)
+3. [Methodology](#-methodology)
+4. [Algorithms Used](#-algorithms-used)
+5. [Evaluation Metrics](#-evaluation-metrics)
+6. [Visualization](#-visualization)
+7. [Documentation](#-documentation)
+8. [Conclusion](#-conclusion)
+
 ## 🚀 Overview
 This project aims to develop a **Stock Price Prediction Model** that assists investors in making informed decisions based on historical stock data. By leveraging machine learning techniques, this model provides insights into potential future trends, helping users identify buying or selling opportunities in the stock market.
 
