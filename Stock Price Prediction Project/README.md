@@ -1,12 +1,8 @@
 <div style="text-align: center;">
-  
-# 📈 Stock Price Prediction Project
-
-<div>
-  
-<div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png" alt="Stock Prediction Model" style="max-width: 80%; height: auto;">
+    <h2>Stock Prediction Model</h2>
+    <img src="https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png" alt="Stock Prediction Model" style="max-width: 50%; height: auto;">
 </div>
+
 
 ## 🚀 Overview
 This project aims to develop a **Stock Price Prediction Model** that assists investors in making informed decisions based on historical stock data. By leveraging machine learning techniques, this model provides insights into potential future trends, helping users identify buying or selling opportunities in the stock market.
