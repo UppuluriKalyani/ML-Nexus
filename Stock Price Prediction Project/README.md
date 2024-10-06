@@ -1,7 +1,11 @@
-<div style="text-align: center;">
-    <h2>Stock Prediction Model</h2>
-    <img src="https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png" alt="Stock Prediction Model" style="max-width: 50%; height: auto;">
+<div align="center">
+
+## InvestWise - Stock Prediction Model
+
+![Stock Prediction Model](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png)
+
 </div>
+
 
 
 ## 🚀 Overview
