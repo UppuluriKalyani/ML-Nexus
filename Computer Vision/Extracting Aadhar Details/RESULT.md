@@ -14,7 +14,7 @@ Screenshots are provided for the extracted information, along with an API result
 In this approach, the Aadhaar card image is first converted to greyscale and then passed through the Tesseract OCR engine. Regular expressions (`re`) are used to extract key information such as names, gender, date of birth, and Aadhaar number from the extracted text.
 
 ### Screenshot for Tesseract OCR Result:
-![Tesseract OCR Result](assets/images/teserract.png)
+![Tesseract OCR Result](assets/images/tesseract.png)
 
 #### Challenges:
 - **Accuracy**: Tesseract struggles with mixed-language documents (English + Hindi).
