@@ -1,12 +1,10 @@
 <div align="center">
 
-## InvestWise - Stock Prediction Model
+##  📈 Stock Price Prediction Project
 
 ![Stock Prediction Model](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png)
 
 </div>
-
-
 
 ## 🚀 Overview
 This project aims to develop a **Stock Price Prediction Model** that assists investors in making informed decisions based on historical stock data. By leveraging machine learning techniques, this model provides insights into potential future trends, helping users identify buying or selling opportunities in the stock market.
@@ -64,8 +62,5 @@ A comprehensive documentation section is provided, including:
 
 ## 🌟 Conclusion
 This project addresses the challenges investors face in predicting stock prices by using a blend of data science and machine learning techniques. The resulting model not only showcases analytical skills but also offers a practical solution for investment decisions.
-
-## 🔗 Getting Started
-To run this project locally, follow the instructions in the **Installation and Usage Instructions** section of the README.
 
 ---
