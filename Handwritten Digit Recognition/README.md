@@ -1,5 +1,9 @@
 # 🖊️ Handwritten Digit Recognition Project
 
+## 🖼️ Model Architecture
+<img src="https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Handwritten%20Digit%20Recognition/DigitVision%20-%20Handwritten%20Digit%20Recognition%20(1).png" alt="CNN Model Architecture" width="600"/>
+
+
 ## 📖 Overview
 The Handwritten Digit Recognition project aims to accurately identify and classify handwritten digits. This challenge is crucial for various applications, such as automated data entry and postal services. Leveraging the **MNIST dataset**, this project develops a robust Convolutional Neural Network (CNN) model using **TensorFlow** and **Keras**.
 
