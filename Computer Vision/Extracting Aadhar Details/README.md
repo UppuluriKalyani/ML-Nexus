@@ -64,8 +64,10 @@ To overcome the limitations of Tesseract, the second approach uses **EasyOCR**, 
 ## Installation
 
 ### 1. Clone the Repository:
-git clone <repository-url>
-cd <project-directory>```
+`git clone https://UppuluriKalyani/ML-Nexus`
+
+
+`cd <project-directory>`
 
 ### 2. Install Requirements
-pip install -r requirements.txt
+`pip install -r requirements.txt`
