@@ -5,7 +5,7 @@ This repository contains a machine learning project for classifying dog breeds u
 
 ## Overview
 
-Dog Breed Classification is a project that leverages deep learning techniques to classify images of dogs into their respective breeds. It aims to demonstrate the effectiveness of convolutional neural networks (CNNs) in image recognition tasks.
+Dog Breed Classification is a project that leverages deep learning techniques to classify images of dogs into their respective breeds. It aims to demonstrate the effectiveness of convolutional neural networks (CNNs) and mobilenet_v2 in image recognition tasks.
 
 ## Dataset
 
