@@ -30,3 +30,24 @@ This project is a Flask-based API that extracts relevant information (like Name,
 4. The extracted information is returned in JSON format.
 
 ---
+
+## Install Required Libraries
+Install all required Python libraries using the requirements.txt file:
+
+
+`pip install -r requirements.txt`
+
+This will install:
+
+ - Flask (For creating the API server)
+ - EasyOCR (For extracting text from images)
+ - regex (For pattern matching in the text)
+
+## How to Run the API
+Once you’ve installed all the necessary libraries, follow these steps to run the Flask application:
+
+Start the Flask development server:
+
+`python app.py`
+
+The Flask API will be running on http://127.0.0.1:5000/.
