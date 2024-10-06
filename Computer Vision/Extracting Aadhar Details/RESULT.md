@@ -14,7 +14,7 @@ Screenshots are provided for the extracted information, along with an API result
 In this approach, the Aadhaar card image is first converted to greyscale and then passed through the Tesseract OCR engine. Regular expressions (`re`) are used to extract key information such as names, gender, date of birth, and Aadhaar number from the extracted text.
 
 ### Screenshot for Tesseract OCR Result:
-![Tesseract OCR Result](assets/images/teserract)
+![Tesseract OCR Result](assets/images/teserract.png)
 
 #### Challenges:
 - **Accuracy**: Tesseract struggles with mixed-language documents (English + Hindi).
@@ -36,10 +36,10 @@ The EasyOCR approach uses multi-language support for both Hindi and English, mak
 - **Aadhaar Number**: `2058 6470 5393`
 
 ### Screenshot for EasyOCR Result:
-![EasyOCR Result](assets/images/easyocr)
+![EasyOCR Result](assets/images/easyocr.png)
 
 ### After Extraction
-![EasyOCR Result](assets/images/Output)
+![EasyOCR Result](assets/images/Output.png)
 
 #### Advantages:
 - **Higher Accuracy**: EasyOCR performs significantly better with mixed-language documents, making it ideal for Aadhaar cards.
@@ -64,7 +64,7 @@ The EasyOCR approach uses multi-language support for both Hindi and English, mak
 
 Here is the expected result returned from the API after extracting information from the Aadhaar card image:
 
-![EasyOCR Result](assets/images/api_response)
+![EasyOCR Result](assets/images/api_response.png)
 
 ### Input  Body JSON: 
 {
