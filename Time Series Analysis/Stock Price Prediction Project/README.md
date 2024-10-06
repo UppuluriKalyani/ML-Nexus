@@ -2,7 +2,7 @@
 
 ##  📈 Stock Price Prediction Project
 
-![Stock Prediction Model](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png)
+![Stock Prediction Model](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Time%20Series%20Analysis/Stock%20Price%20Prediction%20Project/InvestWise%20-%20Stock%20Prediction%20Model.png)
 
 </div>
 
