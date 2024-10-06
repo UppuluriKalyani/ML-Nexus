@@ -74,4 +74,11 @@ A comprehensive documentation section is provided, including:
 ## 🌟 Conclusion
 This project addresses the challenges investors face in predicting stock prices by using a blend of data science and machine learning techniques. The resulting model not only showcases analytical skills but also offers a practical solution for investment decisions.
 
+## 📧 Contact
+For any inquiries or contributions, feel free to reach out:
+
+Name: Alolika Bhowmik
+Email: alolikabhowmik72@gmail.com
+GitHub: alo7lika
+
 ---
