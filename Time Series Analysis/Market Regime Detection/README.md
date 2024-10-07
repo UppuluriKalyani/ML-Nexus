@@ -1,7 +1,6 @@
 <p align="center">
   
 # 📈 Market Regime Detection Project
-
 </p>
 
 
