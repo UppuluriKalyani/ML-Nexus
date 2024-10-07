@@ -28,6 +28,8 @@ def main():
         audio_file = capture_and_translate(source_lang, target_lang)
         if audio_file:
             time.sleep(1)  # Ensure pygame cleanup
+            if st.button("🔁 Replay Translated Audio", key="replay_button"):
+                st.audio(audio_file)
             try:
                 os.remove(audio_file)
             except Exception as e:
