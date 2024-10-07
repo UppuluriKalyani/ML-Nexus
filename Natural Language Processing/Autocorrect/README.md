@@ -17,14 +17,14 @@ The model consists of the following components:
 - `BahdanauAttention`: Computes attention weights to focus on important parts of the input.
 - `Decoder`: Generates the output sequence by attending to the encoder's context vectors.
 
+## Known Issues and Fixes
+- The dataset is large and takes a lot of time to train. As a result, only a portion of the data can be used to train the model.
+- This model sometimes repeats words in a sentence.
+- A system with high specs can be used to compile a model with a much larger portion of the downloaded dataset to ensure higher accuracy and precision.
+
 ## Dependencies
 Install the following dependencies:
 ```bash
 pip install tensorflow==2.13.0
 pip install numpy
-pip install pandas```
-
-## Known Issues and Fixes
-- The dataset is large and takes a lot of time to train. As a result, only a portion of the data can be used to train the model.
-- This model sometimes repeats words in a sentence.
-- A system with high specs can be used to compile a model with a much larger portion of the downloaded dataset to ensure higher accuracy and precision.
+pip install pandas
