@@ -1,6 +1,7 @@
 <p align="center">
-  <h1>Market Regime Detection</h1>
+  <h1>Your Centered Headline</h1>
 </p>
+
 
 
 <p align="center">
