@@ -50,9 +50,11 @@ def capture_and_translate(source_lang, target_lang):
             return audio_file
 
         except sr.WaitTimeoutError:
-            st.error("⚠️ No speech detected. Try speaking louder.")
+            st.error("⚠️ No speech detected within the time limit. Please ensure you're speaking into the microphone clearly and check your microphone settings.")
         except sr.UnknownValueError:
-            st.error("⚠️ Could not recognize speech.")
+            st.error("⚠️ Speech was unclear or not recognized. Try speaking louder, clearer, or checking your microphone setup.")
+        except sr.RequestError:
+            st.error("⚠️ Could not request results from the speech recognition service. Please check your internet connection or try again later.")
         except Exception as e:
-            st.error(f"⚠️ Error: {str(e)}")
+            st.error(f"⚠️ An unexpected error occurred: {str(e)}")
         return None
