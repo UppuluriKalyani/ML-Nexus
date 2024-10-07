@@ -1,6 +1,5 @@
 <p align="center">
-  
-# 📈 Market Regime Detection Project
+  <h2>Market Regime Detection</h2>
 </p>
 
 
