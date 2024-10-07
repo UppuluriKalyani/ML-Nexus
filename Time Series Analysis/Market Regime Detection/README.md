@@ -2,6 +2,10 @@
   
 # 📈 Market Regime Detection Project
 
+</p>
+
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Time%20Series%20Analysis/Market%20Regime%20Detection/Market%20Regime%20Detection%20Project%20-%20Analysis%20Dashboard.png" alt="Market Regime Detection Dashboard" width="600"/>
 </p>
 
