@@ -1,5 +1,5 @@
 <p align="center">
-  <h2>Market Regime Detection</h2>
+  <h1>Market Regime Detection</h1>
 </p>
 
 
