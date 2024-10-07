@@ -3,6 +3,17 @@
 ## 📖 Overview
 The Market Regime Detection project aims to identify different market conditions by analyzing historical stock price data. By utilizing advanced data analysis techniques, this project classifies market regimes to aid in informed trading decisions and strategy development.
 
+## 📚 Table of Contents
+- [🚀 Problem Statement](#-problem-statement)
+- [💡 Proposed Solution](#-proposed-solution)
+  - [Key Components](#key-components)
+- [📦 Installation & Usage](#-installation--usage)
+- [⚙️ Alternatives Considered](#-alternatives-considered)
+- [📊 Results](#-results)
+- [🔍 Conclusion](#-conclusion)
+- [🤝 Acknowledgments](#-acknowledgments)
+- [📧 Contact](#-contact)
+
 ## 🚀 Problem Statement
 Accurate market regime detection is crucial for investors and traders. Identifying whether the market is in a bull, bear, or neutral phase can significantly influence trading strategies and risk management.
 
