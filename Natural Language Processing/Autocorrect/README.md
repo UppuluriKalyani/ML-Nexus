@@ -22,7 +22,7 @@ Install the following dependencies:
 ```bash
 pip install tensorflow==2.13.0
 pip install numpy
-pip install pandas
+pip install pandas```
 
 ## Known Issues and Fixes
 - The dataset is large and takes a lot of time to train. As a result, only a portion of the data can be used to train the model.
