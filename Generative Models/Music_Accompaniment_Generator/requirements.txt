@@ -1,0 +1,5 @@
+mido==1.2.10
+torch==2.0.0
+miditok==3.0.1
+tqdm==4.62.3
+pretty_midi==0.2.10
