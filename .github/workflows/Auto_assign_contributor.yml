@@ -1,0 +1,15 @@
+name: Auto Assign Issue Creator
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  assign-issue-creator:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Assign issue creator to the issue
+      uses: kentaro-m/auto-assign-issue-creator@v1.0.2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
