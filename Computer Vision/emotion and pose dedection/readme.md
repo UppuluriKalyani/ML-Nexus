@@ -63,4 +63,5 @@ pip install opencv-python mediapipe deepface
 
 This setup creates the basis for a system that can monitor CCTV footage for both emotional cues and violent actions, providing early warnings for potential incidents.
 
+
 output ![alt text](<sample outputs.png>)
