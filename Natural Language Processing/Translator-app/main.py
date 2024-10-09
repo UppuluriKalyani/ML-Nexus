@@ -28,6 +28,21 @@ def main():
         audio_file = capture_and_translate(source_lang, target_lang)
         if audio_file:
             time.sleep(1)  # Ensure pygame cleanup
+
+            # Replay the audio if available
+            if st.button("🔁 Replay Translated Audio", key="replay_button"):
+                st.audio(audio_file)
+
+            # Download the audio file
+            with open(audio_file, "rb") as audio:
+                st.download_button(
+                    label="🔊 Download Translated Audio",
+                    data=audio,
+                    file_name="translated_audio.mp3",
+                    mime="audio/mp3"
+                )
+
+            # Optionally delete the file afterward (if no replay needed)
             try:
                 os.remove(audio_file)
             except Exception as e:
