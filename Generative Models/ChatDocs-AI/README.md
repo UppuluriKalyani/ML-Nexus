@@ -15,23 +15,27 @@ This application makes use of following LLMs:
 - Python 3.9 or later (earlier versions are not compatible).
 
 # Installation
-1. Clone the repository
+1. Fork the repository and then follow the steps given below!
+   
+2. Clone the repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/<your-username>/ML-Nexus.git
+cd ML-Nexus/Generative Models/ChatDocs-AI
 ```
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-3. Install required Python packages:
+4. Install required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+5. Run the application:
 ```bash
 streamlit run main.py
 ```
 
 # Snapshots
+![image](https://github.com/user-attachments/assets/7e518fc4-c70c-44fd-9719-24b78bf0e5c9)
