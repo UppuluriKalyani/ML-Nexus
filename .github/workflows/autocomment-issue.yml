@@ -16,9 +16,10 @@ jobs:
       - name: Add Comment to Issue
         run: |
           COMMENT=$(cat <<EOF
-          {
-            "body": "Thank you for creating this issue! 🎉 We'll look into it as soon as possible. In the meantime, please make sure to provide all the necessary details and context. Your contributions are highly appreciated! 😊"
-          }
+         {
+          "body": "🎉Thanks for creating an issue we will look into it as soon as possible.\nBefore submitting your PR, please make sure to:\n🌟 Star the repository if you haven’t yet.\nPull the latest changes to avoid any merge conflicts.\nInclude before & after screenshots in your PR to provide clear context.\nReference the issue number in your PR description for easier tracking.\nFollow @UppuluriKalyani (Project Admin) to stay updated on project news!"
+        }
+
           EOF
           )
           RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
