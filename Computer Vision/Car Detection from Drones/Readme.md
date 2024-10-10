@@ -53,3 +53,10 @@ Based on the results we can draw the following conclusions:Certainly! Here's a t
 2. OpenCV: The OpenCV model, utilizing techniques like BackgroundSubtractorMOG2 and contour detection, achieved an accuracy of 0.85 in identifying objects. While simpler compared to deep learning models like YOLOv8, it excels in scenarios where real-time processing and moderate accuracy are sufficient. Its versatility and ease of implementation make it suitable for various computer vision applications.
 
 3. Comparison: YOLOv8's deep learning approach offers superior accuracy and robustness in detecting objects of various sizes and orientations compared to the OpenCV model. YOLOv8's architecture enables efficient processing of frames in complex scenes, making it ideal for applications requiring high detection precision. In contrast, OpenCV provides a lightweight and accessible solution with good performance in less demanding environments, emphasizing simplicity and real-time processing capabilities.
+
+##Output
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/a00e1ff5-c245-4adb-a206-9918962ed0cf">
+
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/bd2dbaa9-0dec-4b1b-8694-c455d4e43bfe">
+
+
