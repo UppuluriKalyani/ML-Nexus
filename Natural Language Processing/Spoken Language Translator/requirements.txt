@@ -1,0 +1,4 @@
+googletrans==4.0.0-rc1
+pywin32==305
+SpeechRecognition==3.8.1
+tk
