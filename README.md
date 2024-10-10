@@ -108,16 +108,52 @@ You can refer to the following articles on the basics of Git and Github.
 - Wait for the Issue to be assigned to you.
 - Fork the repository
 >click on the uppermost button <img src="https://github.com/Vinamrata1086/Face-X/blob/master/Recognition-Algorithms/Facial%20Recognition%20using%20LBPH/images/fork.png" width=50>
-- Clone your forked copy of the project.
 
-```
-git clone --depth 1 https://github.com/<your_user_name>/ML-Nexus.git
+1. **[Fork](https://github.com/UppuluriKalyani/ML-Nexus/fork) the repository** to your own GitHub account.
+   
+2. **Clone the repository** to your local machine:
+   
+    ```bash
+    git clone https://github.com/UppuluriKalyani/ML-Nexus.git
+    ```
+    
+3. **Navigate into the directory**:
+   
+    ```bash
+    cd ML-Nexus
+    ```
+    
+4. **Install dependencies** (if applicable):
+   
+    ```bash
+    npm install
+    ```
+    
+5. **Create a new branch** for your changes:
+   
+    ```bash
+    git checkout -b <your-branch-name>
+    ```
+    
+6. **Make your changes**, commit, and push:
+   
+    ```bash
+    git add .
+    git commit -m "Your message here"
+    git push origin <your-branch-name>
+    ```
 
-## Installation 👇
+7. **Submit a pull request:**
+   - Go to the original repository on GitHub.
+   - Click on the "Pull Requests" tab.
+   - Click the "New Pull Request" button.
+   - Select your feature branch and submit the pull request.
 
-```bash
-pip install -r requirements.txt
-```
+8. **Wait for review and feedback.**
+   - Address any comments or requested changes.
+   - Once approved, your feature will be merged into the main branch.
+
+
 - Have a look at [Contributing Guidelines](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CONTRIBUTING.md)
 - Read the [Code of Conduct](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md)
 
@@ -154,13 +190,29 @@ pip install -r requirements.txt
   <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="700" height"250" />
 </p>
 
+## &#8627; Stargazers🌟
 
-### Proposing Ideas💡 
+<div align='center'>
+
+[![Stargazers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/stars/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/stargazers)
+
+</div>
+
+## &#8627; Forkers🍴
+<div align='center'>
+
+[![Forkers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/forks/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/network/members)
+
+</div>
+
+
+
+## Proposing Ideas💡 
 If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
 
 Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
 
-- #### Pull Requests
+- **Pull Requests:**
 After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
 
    
@@ -170,17 +222,15 @@ After submitting a pull request, please give us time to review it. If everything
 <p>Please do! Contributions<a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> and <a href=" ">pull requests</a> are welcome.Contributors are expected to adhere to the<a href=``https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md/"> Code of Conduct</a>.
 </p>
 <p>
-Jump into our <a href="https://discord.gg/DjS7Uass">Discord</a>!
+Jump into our <a href="https://discord.gg/fy8MQkCh">Discord</a>!
 </p>
 <p>
 
 </p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
- <br>
- <br>
 
- <h2 align="center">Code of Conduct</h2>
+ ## Code of Conduct🤝
 
 To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md). 
  
@@ -189,13 +239,12 @@ To maintain a safe and inclusive space for everyone to learn and grow, contribut
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 
-<h2 align="center">Feedback</h2>
+## Feedback📝
 
-If you have any feedback or suggestions please reach out to Project - Maintainer.  
-* [Uppuluri Kalyani](https://github.com/UppuluriKalyani)
+We value your feedback! If you have suggestions or encounter any issues, feel free to:
 
-
-Or you can create a  <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+- Open an issue [here](https://github.com/UppuluriKalyani/ML-Nexus/issues)
+- Reach out to the maintainer: [Uppuluri Kalyani](https://github.com/UppuluriKalyani)
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
