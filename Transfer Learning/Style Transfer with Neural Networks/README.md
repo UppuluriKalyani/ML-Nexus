@@ -1,6 +1,6 @@
 # 🎨 Style Transfer with Neural Networks 🖼️
 
-Welcome to the **Style Transfer with Neural Networks** project! In this project, we explore the application of neural networks to perform artistic style transfer, allowing us to blend the artistic style of one image with the content of another. 
+Welcome to the **Style Transfer with Neural Networks** project! In this project, we explore the application of neural networks to perform artistic style transfer, allowing us to blend one image's artistic style with another's content. 
 
 ## 📖 Table of Contents
 
@@ -17,7 +17,7 @@ Welcome to the **Style Transfer with Neural Networks** project! In this project,
 
 ## 📚 Project Overview
 
-Style transfer is a technique in deep learning that involves using Convolutional Neural Networks (CNNs) to separate and combine the style of one image with the content of another image. This project implements a neural style transfer model using **PyTorch** and **pre-trained VGG19**.
+Style transfer is a deep learning technique that involves using Convolutional Neural Networks (CNNs) to separate and combine the style of one image with the content of another image. This project implements a neural style transfer model using PyTorch and pre-trained VGG19.
 
 ### Key Features:
 - Use of **pre-trained neural networks** for feature extraction (VGG19)
@@ -60,7 +60,7 @@ pip install torch torchvision matplotlib Pillow
 
 | Content Image                                                                                  | Style Image                                                                                   |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| ![Content Image]() | ![Style Image]() |
+| ![Content Image](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Transfer%20Learning/Style%20Transfer%20with%20Neural%20Networks/content%20image.jpg) | ![Style Image](https://raw.githubusercontent.com/alo7lika/ML-Nexus/refs/heads/main/Transfer%20Learning/Style%20Transfer%20with%20Neural%20Networks/style%20image.jpg) |
 
 ## 🔬 Concepts Behind the Project
 - **Content Representation**: Extracted from deeper layers of the neural network to capture the high-level structures in the image.
