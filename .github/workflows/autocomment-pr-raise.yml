@@ -17,7 +17,7 @@ jobs:
       run: |
         COMMENT=$(cat <<EOF
         {
-          "body": "👋 Thank you for opening this pull request! We appreciate your contribution to improving this project. Your PR is under review, and we'll get back to you shortly. \n\nTo help move the process along, please tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh26 for a faster review!"
+          "body": "👋 Thank you for opening this pull request! We appreciate your contribution to improving this project. Your PR is under review, and we'll get back to you shortly. \nDon't forget to mention the issue you solved!.\n\nTo help move the process along, please tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh26 for a faster review!"
         }
         EOF
         )
