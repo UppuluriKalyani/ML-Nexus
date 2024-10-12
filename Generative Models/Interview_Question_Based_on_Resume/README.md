@@ -1,6 +1,9 @@
-# Text-to-Music Generator
+# Interview_Questions_Based_on_Resume
 
 This folder contains a EJS-Based web application that Interview Questions based on our Resume. It also suggests Improvements to be done.
+
+
+https://github.com/user-attachments/assets/bce45b75-d7b0-4056-ab3d-9a0081b7ed4c
 
 ## Features
 
@@ -17,20 +20,14 @@ This folder contains a EJS-Based web application that Interview Questions based 
     cd Interview_Question_Based_on_Resume
     ```
 
-2. **Create a virtual environment**:
-    ```bash
-    python3 -m venv music-env
-    source music-env/bin/activate
-    ```
-
-3. **Install the required packages**:
+2. **Install the required packages**:
     ```bash
     npm install
     ```
 
 ## Usage
 
-1. **Run the Streamlit app**:
+1. **Run the File**:
     ```bash
    npm start
     ```
@@ -41,7 +38,7 @@ This folder contains a EJS-Based web application that Interview Questions based 
 
 4. **Selection** Get Questions and ATS Score
 
-5. **For Improvements** Also get Improvements
+5. **For Improvements** It also gives answers to our questions.
 
 
 
