@@ -18,71 +18,21 @@ The classification of eye diseases is crucial for early diagnosis and treatment.
 
 The dataset consists of images from multiple categories of eye diseases, including different grades and types. The dataset is split into training, validation, and test sets.
 
-- **Categories**: List the categories or types of eye diseases in the dataset.
-- **Grades**: Severity levels of the diseases.
-
-## Project Structure
-
-\`\`\`bash
-├── data
-│   ├── train
-│   ├── validation
-│   └── test
-├── notebooks
-│   ├── Data_Augmentation.ipynb
-│   ├── CNN_Model_Building.ipynb
-│   ├── MobileNetV2_Finetuning.ipynb
-│   └── Model_Evaluation.ipynb
-├── models
-│   ├── cnn_model.h5
-│   ├── mobilenetv2_model.h5
-│   └── model_checkpoints
-├── images
-│   └── sample_images.png
-├── README.md
-└── requirements.txt
-\`\`\`
-
-## How to Run the Project
-
-1. **Clone the repository**:
-
-   \`\`\`bash
-   git clone https://github.com/your-username/eye-disease-classification.git
-   \`\`\`
-
-2. **Install the required dependencies**:
-
-   \`\`\`bash
-   pip install -r requirements.txt
-   \`\`\`
-
-3. **Download the dataset**:
-
-   Download the dataset and organize it into the \`data\` folder following the structure below:
-
-   \`\`\`bash
-   ├── data
-   │   ├── train
-   │   ├── validation
-   │   └── test
-   \`\`\`
-
-4. **Run the Jupyter notebooks** for data preprocessing, model building, and evaluation:
-
-   - Data Augmentation: \`notebooks/Data_Augmentation.ipynb\`
-   - CNN Model Building: \`notebooks/CNN_Model_Building.ipynb\`
-   - MobileNetV2 Fine-Tuning: \`notebooks/MobileNetV2_Finetuning.ipynb\`
-   - Model Evaluation: \`notebooks/Model_Evaluation.ipynb\`
-
-5. **Training and Evaluation**:
-
-   You can run the notebooks one by one to train the model, fine-tune MobileNetV2, and evaluate the model performance.
+- **Categories**: Specific eye diseases included in the dataset (e.g., Glaucoma, Diabetic Retinopathy, Macular Degeneration).
+- **Types**: The type or classification of the eye disease (e.g., Inflammatory, Degenerative, Congenital).
+- **Grades**: Severity levels of the diseases, which indicate the progression or stage of the disease (e.g., Mild, Moderate, Severe).
 
 ## Results
 
-- **CNN Model**: Achieved an accuracy of 0.7491 on the training set and 0.7269 on the test set.
-- **MobileNetV2**: Achieved an accuracy of 0.9170 on the training set and 0.8377 on the test set.
+- **CNN Model**: Achieved an accuracy of 0.7491 on the training set and 0.7269 on the test set.(Category)
+
+![image](https://github.com/user-attachments/assets/69b15928-aa42-458c-be13-b5ee13e4abc6)
+
+  
+- **MobileNetV2**: Achieved an accuracy of 0.9170 on the training set and 0.8377 on the test set. (TYPPE)
+
+![image](https://github.com/user-attachments/assets/2c0865a1-e482-42ad-915f-ce182421b9ce)
+
 
 Visualizations of model performance, including confusion matrices and classification reports, are included in the evaluation notebook.
 
