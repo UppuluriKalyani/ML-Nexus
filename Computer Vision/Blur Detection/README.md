@@ -16,6 +16,12 @@ The Laplacian method is efficient, requiring minimal computation while effective
 
 - **Visualization**: Display the original image along with the calculated variance to provide a visual understanding of the blur level.
 
+## Results
+![Screenshot 2024-10-12 121351](https://github.com/user-attachments/assets/08b3e04f-fa82-4bf3-b4fe-25648eab00fd)
+![Screenshot 2024-10-12 121408](https://github.com/user-attachments/assets/97ec07de-dcbc-4545-a68a-c80f376d25f4)
+
+
+
 ## Features
 - Efficient blur detection using the Laplacian operator, making it suitable for real-time applications.
 - Easy-to-implement algorithm with minimal dependencies.
