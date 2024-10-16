@@ -93,6 +93,8 @@ Explore projects where pre-trained models are fine-tuned for specific tasks, suc
 
 This project uses a number of key libraries to implement machine learning models and data processing pipelines. To help you better understand these libraries and their roles in the project, we've created a dedicated guide.
 
+For an in-depth overview of the most important libraries used in this project, including their features and functionalities, check out the [Machine Learning Libraries Overview](./ML_Libraries.md).
+
 
 This guide covers:
 - NumPy 🧮 for numerical computations.
