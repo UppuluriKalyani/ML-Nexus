@@ -5,10 +5,10 @@ OMR (Optical Mark Recognition) is a technique used to capture human-marked data 
 ## Methodology
 
 1. Image Preprocessing:
-Image Acquisition: Capture or scan the OMR sheet (scanned or photographed).
-Grayscale Conversion: Convert the image to grayscale to simplify further processing.
-Thresholding/Binarization: Apply thresholding to convert the grayscale image into a binary image (black and white). This helps in clearly distinguishing the filled marks from the background.
-Noise Reduction: Use filters (e.g., Gaussian or median filters) to remove noise from the image.
+ - Image Acquisition: Capture or scan the OMR sheet (scanned or photographed).
+ - Grayscale Conversion: Convert the image to grayscale to simplify further processing.
+ - Thresholding/Binarization: Apply thresholding to convert the grayscale image into a binary image (black and white). This helps in clearly distinguishing the filled marks from the background.
+ - Noise Reduction: Use filters (e.g., Gaussian or median filters) to remove noise from the image.
 
 3. OMR Sheet Alignment:
  - Perspective Transformation: Correct any skew or rotation in the scanned form using perspective transformation.
@@ -42,14 +42,17 @@ Once the marked bubbles are detected, compare the selected answers with the corr
    pip install numpy pandas opencv-python-headless imutils
    ```
 2. Make sure you have a CSV file that follows this structure(answers can vary based on the options available for each question) :
-   ```python
+   <code>
    Question,Answer
    1,A
    2,B
    3,C
    4,D
    5,E 
-  ```
-3. Run the cells provided in the notebook
+   </code>
 
-## Results
+## Results 
+
+![image](https://github.com/user-attachments/assets/ced513fe-0729-44c2-b0f6-a306f7a560bc)
+![image](https://github.com/user-attachments/assets/68f27d0f-c106-4ff2-9cb1-c1ce70c8bdcf)
+
