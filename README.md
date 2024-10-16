@@ -89,6 +89,23 @@ Explore projects where pre-trained models are fine-tuned for specific tasks, suc
 <br>
 <br>
 
+## 📚 Machine Learning Resources
+
+This project uses a number of key libraries to implement machine learning models and data processing pipelines. To help you better understand these libraries and their roles in the project, we've created a dedicated guide.
+
+For an in-depth overview of the most important libraries used in this project, including their features and functionalities, check out the [Machine Learning Libraries Overview](./ML_LIBRARIES.md).
+
+
+This guide covers:
+- NumPy 🧮 for numerical computations.
+- Pandas 📊 for data manipulation.
+- TensorFlow 🤖 and PyTorch 🔥 for deep learning.
+- And more!
+
+We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
+
+<br>
+
 ## ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
@@ -214,6 +231,8 @@ You can refer to the following articles on the basics of Git and Github.
 If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
 
 Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
+
+You can know about various Machine Leaning libraries here :  [ML Libraries](./ML_LIBRARIES.md)
 
 - **Pull Requests:**
 After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
