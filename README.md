@@ -104,6 +104,7 @@ This guide covers:
 
 We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
 
+<br>
 
 ## ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
