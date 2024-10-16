@@ -89,6 +89,21 @@ Explore projects where pre-trained models are fine-tuned for specific tasks, suc
 <br>
 <br>
 
+## 📚 Machine Learning Resources
+
+This project uses a number of key libraries to implement machine learning models and data processing pipelines. To help you better understand these libraries and their roles in the project, we've created a dedicated guide.
+
+For an in-depth overview of the most important libraries used in this project, including their features and functionalities, check out the [Machine Learning Libraries Overview](./ML_Libraries.md).
+
+This guide covers:
+- NumPy 🧮 for numerical computations.
+- Pandas 📊 for data manipulation.
+- TensorFlow 🤖 and PyTorch 🔥 for deep learning.
+- And more!
+
+We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
+
+
 ## ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
