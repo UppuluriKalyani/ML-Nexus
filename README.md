@@ -214,6 +214,7 @@ You can refer to the following articles on the basics of Git and Github.
 If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
 
 Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
+You can know about various Machine Leaning libraries here :  [ML Libraries](./ML_LIBRARIES.md)
 
 - **Pull Requests:**
 After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
