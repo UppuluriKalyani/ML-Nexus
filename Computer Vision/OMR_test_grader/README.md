@@ -1,8 +1,8 @@
 # OMR Test Grader 
-**## Introduction**
+## Introduction
 OMR (Optical Mark Recognition) is a technique used to capture human-marked data from documents like multiple-choice exams, surveys, and ballots. An OMR scanner identifies marks made by users (typically filled bubbles or boxes) on a printed form, and then processes that data. This project aims to build an OMR scanner and grader that can read and grade multiple-choice test forms including handling of multiple marked bubbles , Non-filled bubbles, Visualization of correct and incorrect answers and displaying the percentage of correct answers at the bottom of the OMR sheet. An essential feature includes reading the answer key from a CSV file , simulating real world competitive examinations where answers for each question are stored in a seperate file.
 
-**## Methodology**
+## Methodology
 
 1. Image Preprocessing:
 Image Acquisition: Capture or scan the OMR sheet (scanned or photographed).
@@ -29,20 +29,20 @@ Once the marked bubbles are detected, compare the selected answers with the corr
  - Result: Output the results to the user, which include the number of correct answers, incorrect answers, and the total score.
  - Visualization: Highlight correct and incorrect answers on the image by drawing circles around the marks.
 
-**## Requirements**
+## Requirements
  - OpenCV
  - imutils
  - numpy
  - pandas
  - Streamlit
 
-**## Setup**
+## Setup
 1. Install all required libraries
    ```python
    pip install numpy pandas opencv-python-headless imutils
    ```
 2. Make sure you have a CSV file that follows this structure(answers can vary based on the options available for each question) :
-   ```
+   ```python
    Question,Answer
    1,A
    2,B
@@ -52,4 +52,4 @@ Once the marked bubbles are detected, compare the selected answers with the corr
   ```
 3. Run the cells provided in the notebook
 
-**## Results**
+## Results
