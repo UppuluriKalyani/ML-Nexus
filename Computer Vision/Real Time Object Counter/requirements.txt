@@ -1,0 +1,10 @@
+streamlit==1.22.0
+opencv-python-headless==4.7.0.72
+ultralytics==8.0.110
+numpy==1.24.3
+torch
+torchvision
+Pillow>=9.0.0
+opencv-contrib-python-headless>=4.7.0.72
+matplotlib>=3.6.0
+pyyaml>=6.0
