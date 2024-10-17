@@ -17,11 +17,14 @@ The dataset `multivitamins_data.csv` includes various attributes related to cons
 
 ## Outputs:
 -Features of the dataset
+
 ![Figure:1](./Outputs/Screenshot%202024-10-16%20205700.png)
 
 -Pipeline constructed in Microsoft azure
+
 ![Figure:2](./Outputs/Screenshot%202024-10-16%20205710.png)
 
 -Results
+
 ![Figure:3](./Outputs/Screenshot%202024-10-16%20205729.png)
 
