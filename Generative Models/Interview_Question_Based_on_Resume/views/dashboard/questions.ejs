@@ -1,0 +1,26 @@
+<div class="container-fluid container-fluid-custom pb-5 mb-5">
+    <div class="row mb-3">
+        <h1 class="h2 text-center mb-4">OR</h1>
+      <div class="col">
+        <div class="col d-flex justify-content-center align-items-center">
+          <h1 class="h3">Upload Your Resume</h1>
+        </div>
+      </div>
+    </div>
+  
+    <form action="/dashboard" method="POST" enctype="multipart/form-data" class="mx-auto" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+  
+      <div class="form-group mb-2">
+        <input type="file" class="form-control" id="resume" name="resume" required>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary ">Get Questions</button>
+      </div>
+    </form>
+
+    <div class="mt-4">
+        <textarea class="form-control"  name="questions" id="question" placeholder="Interview questions will be displayed here" rows="13" style="width: 80%; margin-left: 10%; margin-right: 10%;"><%= questions %></textarea>
+        <p class="mt-4" style="width: 80%; margin-left: 10%; margin-right: 10%; text-align: center;">Refresh the page to get new questions</p>
+    </div>
+  </div>

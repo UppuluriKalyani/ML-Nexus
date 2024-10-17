@@ -1,4 +1,4 @@
-name: Auto Comment on Issue
+name: Auto Comment on Issue To Wait
 
 on:
   issues:
@@ -17,7 +17,7 @@ jobs:
         run: |
           COMMENT=$(cat <<EOF
           {
-            "body": "Thank you for creating this issue! 🎉 We'll look into it as soon as possible. In the meantime, please make sure to provide all the necessary details and context. Your contributions are highly appreciated! 😊"
+            "body": "Thanks for creating the issue in ML-Nexus!🎉\nBefore you start working on your PR, please make sure to:\n - ⭐ Star the repository if you haven't already.\n - Pull the latest changes to avoid any merge conflicts.\n - Attach before & after screenshots in your PR for clarity.\n- Include the issue number in your PR description for better tracking.\n  Don't forget to follow @UppuluriKalyani – Project Admin – for more updates!\nTag @Neilblaze,@SaiNivedh26 for assigning the issue to you.\nHappy open-source contributing!☺️"
           }
           EOF
           )

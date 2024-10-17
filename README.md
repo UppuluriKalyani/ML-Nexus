@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/mlnexus.jpg" width="200" height="200">
+</div>
+<div align="center">
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"><img src="https://img.shields.io/github/issues/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/pulls"><img src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/network/members"><img src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus"></a>
@@ -10,18 +13,14 @@
 
 
 # ML-Nexus
+A dynamic hub of Machine Learning innovations, where hands-on projects and collaborative experiments come together to inspire open-source contributions and foster a community of shared learning.
 
-A collection of Machine Learning projects, experiments, and tutorials designed for open-source contribution and collaborative learning.
+This repository is a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're new to the field or a seasoned expert, there's something for everyone to contribute to. Dive into neural networks, computer vision, natural language processing (NLP), and more. Join our vibrant community, share your ideas, and help shape the future of AI—together!
 
-<div align="center">
-  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/Mlnexus.webp" width="200" height="200">
-</div>
-<h3>Join official <a href="https://discord.gg/DjS7Uass">Discord Channel</a> for discussion</h3>
 
-## ML-Nexus
+**NOTE:** You're limited to earning a maximum of 200 points from this repo. Additionally, we can't accept any ideas or features if your score already exceeds 200 points.
 
-Welcome to ML Nexus, an open-source hub for all things machine learning. This repository houses a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're a newcomer or a seasoned expert, you'll find something to contribute to. Dive into the world of neural networks, computer vision, NLP, and more. Join the community, share your ideas, and help shape the future of AI together!
-
+<h4>Join official <a href="https://discord.gg/n2D4RqnU">Discord Channel</a> for discussion</h4>
 <p style="clear:both;">
 <h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing">Natural Language Processing (NLP)</a></h2>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
@@ -90,6 +89,23 @@ Explore projects where pre-trained models are fine-tuned for specific tasks, suc
 <br>
 <br>
 
+## 📚 Machine Learning Resources
+
+This project uses a number of key libraries to implement machine learning models and data processing pipelines. To help you better understand these libraries and their roles in the project, we've created a dedicated guide.
+
+For an in-depth overview of the most important libraries used in this project, including their features and functionalities, check out the [Machine Learning Libraries Overview](./ML_LIBRARIES.md).
+
+
+This guide covers:
+- NumPy 🧮 for numerical computations.
+- Pandas 📊 for data manipulation.
+- TensorFlow 🤖 and PyTorch 🔥 for deep learning.
+- And more!
+
+We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
+
+<br>
+
 ## ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
@@ -112,22 +128,56 @@ You can refer to the following articles on the basics of Git and Github.
 - Wait for the Issue to be assigned to you.
 - Fork the repository
 >click on the uppermost button <img src="https://github.com/Vinamrata1086/Face-X/blob/master/Recognition-Algorithms/Facial%20Recognition%20using%20LBPH/images/fork.png" width=50>
-- Clone your forked copy of the project.
 
-```
-git clone --depth 1 https://github.com/<your_user_name>/ML-Nexus.git
+1. **[Fork](https://github.com/UppuluriKalyani/ML-Nexus/fork) the repository** to your own GitHub account.
+   
+2. **Clone the repository** to your local machine:
+   
+    ```bash
+    git clone https://github.com/UppuluriKalyani/ML-Nexus.git
+    ```
+    
+3. **Navigate into the directory**:
+   
+    ```bash
+    cd ML-Nexus
+    ```
+    
+4. **Install dependencies** (if applicable):
+   
+    ```bash
+    npm install
+    ```
+    
+5. **Create a new branch** for your changes:
+   
+    ```bash
+    git checkout -b <your-branch-name>
+    ```
+    
+6. **Make your changes**, commit, and push:
+   
+    ```bash
+    git add .
+    git commit -m "Your message here"
+    git push origin <your-branch-name>
+    ```
 
-## Installation 👇
+7. **Submit a pull request:**
+   - Go to the original repository on GitHub.
+   - Click on the "Pull Requests" tab.
+   - Click the "New Pull Request" button.
+   - Select your feature branch and submit the pull request.
 
-```bash
-pip install -r requirements.txt
-```
+8. **Wait for review and feedback.**
+   - Address any comments or requested changes.
+   - Once approved, your feature will be merged into the main branch.
+
+
 - Have a look at [Contributing Guidelines](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CONTRIBUTING.md)
 - Read the [Code of Conduct](https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md)
 
 </br>
-
-<p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 ## ❤️ Project Admin
@@ -136,8 +186,8 @@ pip install -r requirements.txt
 	<tr>
 		<td align="center">
 			<a href="https://github.com/UppuluriKalyani">
-				<img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/kals.jpg" width="100px" alt="" />
-				<br /> <sub><b>Uppuluri Kalyani</b></sub>
+				<img src="https://avatars.githubusercontent.com/u/105410881?v=4" width="100px" alt="" />
+				<br /> <sub><b>Kalyani</b></sub>
 			</a>
 			<br /> <a href="https://github.com/UppuluriKalyani"> 
 		👑 Admin
@@ -147,36 +197,61 @@ pip install -r requirements.txt
 </table>
 
 
+## 💻 Project Mentors
+
+| <img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="80px" /> | <img src="https://avatars.githubusercontent.com/u/48355572?v=4" width="80px" /> |
+|:---:|:---:|
+| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Neilblaze) <br> 🔧 Mentor |
+
+
+## Contributors👩‍💻👨‍💻
+
+<p>
+  <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="700" height"250" />
+</p>
+
+## &#8627; Stargazers🌟
+
+<div align='center'>
+
+[![Stargazers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/stars/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/stargazers)
+
+</div>
+
+## &#8627; Forkers🍴
+<div align='center'>
+
+[![Forkers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/forks/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/network/members)
+
+</div>
+
+
+
+## Proposing Ideas💡 
+If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
+
+Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
+
+
+- **Pull Requests:**
+After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
+
+   
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
-  <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/com.jpg" height="350" width="50%" align="left"/>
+
 <p>Please do! Contributions<a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> and <a href=" ">pull requests</a> are welcome.Contributors are expected to adhere to the<a href=``https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md/"> Code of Conduct</a>.
 </p>
 <p>
-Jump into our <a href="https://discord.gg/DjS7Uass">Discord</a>!
+Jump into our <a href="https://discord.gg/n2D4RqnU">Discord</a>!
 </p>
 <p>
 
 </p>
 
-
-
-
-<br>
-<br>
-<br>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
- <br>
- <br>
- <br>
-<br>
-<br>
-<br>
-<br>
 
- <h2 align="center">Code of Conduct</h2>
+ ## Code of Conduct🤝
 
 To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md). 
  
@@ -185,13 +260,12 @@ To maintain a safe and inclusive space for everyone to learn and grow, contribut
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 
-<h2 align="center">Feedback</h2>
+## Feedback📝
 
-If you have any feedback or suggestions please reach out to Project - Maintainer.  
-* [Uppuluri Kalyani](https://github.com/UppuluriKalyani)
+We value your feedback! If you have suggestions or encounter any issues, feel free to:
 
-
-Or you can create a  <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+- Open an issue [here](https://github.com/UppuluriKalyani/ML-Nexus/issues)
+- Reach out to the maintainer: [Uppuluri Kalyani](https://github.com/UppuluriKalyani)
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
