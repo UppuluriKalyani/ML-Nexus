@@ -16,11 +16,12 @@ The dataset `multivitamins_data.csv` includes various attributes related to cons
 - Machine Learning Algorithms
 
 ## Outputs:
-[Figure:1](C:\Users\Harishankar Chiluka\Documents\GitHub\New folder\ML-Nexus\Prediction Models\Predicting Multivitaimne Purchase\Outputs\Screenshot 2024-10-16 205700.png)
--feature of the data
+-Features of the dataset
+![Figure:1](./Outputs/Screenshot%202024-10-16%20205700.png)
 
-[Figure:2](C:\Users\Harishankar Chiluka\Documents\GitHub\New folder\ML-Nexus\Prediction Models\Predicting Multivitaimne Purchase\Outputs\Screenshot 2024-10-16 205710.png)
 -Pipeline constructed in Microsoft azure
+![Figure:2](./Outputs/Screenshot%202024-10-16%20205710.png)
 
-[Figure:3](C:\Users\Harishankar Chiluka\Documents\GitHub\New folder\ML-Nexus\Prediction Models\Predicting Multivitaimne Purchase\Outputs\Screenshot 2024-10-16 205729.png)
 -Results
+![Figure:3](./Outputs/Screenshot%202024-10-16%20205729.png)
+
