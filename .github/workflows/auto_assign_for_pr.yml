@@ -1,0 +1,17 @@
+name: PR Auto-Assignment
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: 'Auto-assign PR creator'
+        uses: kentaro-m/auto-assign-action@v1.1.2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }} # Required token for authentication
+          assignees: ${{ github.event.pull_request.user.login }} # Auto-assign the PR creator
