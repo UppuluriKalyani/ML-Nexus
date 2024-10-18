@@ -106,7 +106,7 @@ We encourage you to explore this document to gain a deeper understanding of the 
 
 ## 📚 Generative AI resources
 
-To get in-depth overview and roadmap to learn Generative AI. Check out [Generative AI Roadmap.](VENERATIVE_AI_ROADMAP.md)
+To get in-depth overview and roadmap to learn Generative AI. Check out [Generative AI Roadmap.](GENERATIVE_AI_ROADMAP.md)
 
 This guide covers:
 
