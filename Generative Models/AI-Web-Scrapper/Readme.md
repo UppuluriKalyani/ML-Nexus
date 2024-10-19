@@ -34,9 +34,9 @@ Welcome to **WebWeaver**, an AI-powered web scraping and content parsing tool. T
 
 # Clone the repository
 echo "Cloning the WebWeaver repository..."
-git clone https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Generative%20Models/AI-Web-Scrapper
+git clone https://github.com/UppuluriKalyani/ML-Nexus
 
-cd Generative Models/AI-Web-Scrapper/AI-Web-Scrapper
+cd Generative Models/AI-Web-Scrapper/
 
 # Install dependencies
 echo "Installing required dependencies..."
