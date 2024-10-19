@@ -97,7 +97,7 @@ def visualize_landmarks(image_path, landmarks):
 def main():
     warnings.filterwarnings("ignore")
     model_path = 'best_face_landmarks_model.pth'
-    test_image_path = r'C:\Users\agraw\Desktop\Face_Landmark\ibug_300W_large_face_landmark_dataset\helen\trainset\2965035072_1_mirror.jpg'  # Replace with your test image path
+    test_image_path = r'path/to/img'  # Replace with your test image path
 
     # Load the trained model
     model = load_model(model_path)
