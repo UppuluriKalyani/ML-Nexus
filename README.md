@@ -104,6 +104,22 @@ This guide covers:
 
 We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
 
+## 📚 Generative AI resources
+
+To get in-depth overview and roadmap to learn Generative AI. Check out [Generative AI Roadmap.](GENERATIVE_AI_ROADMAP.md)
+
+This guide covers:
+
+- Overview of generative AI
+- Roadmap to learn Generative AI
+- LLM models 🤖
+- Retrieval Augumented Generation (RAG)
+- Vector and graph databases
+- Embedding models
+- Inference APIs
+- PDF scrapping 🗒️
+- AI agents 🤖
+
 <br>
 
 ## ⭐ How to get started with open source?
