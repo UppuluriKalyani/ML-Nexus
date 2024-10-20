@@ -150,7 +150,7 @@ You can refer to the following articles on the basics of Git and Github.
 2. **Clone the repository** to your local machine:
    
     ```bash
-    git clone https://github.com/UppuluriKalyani/ML-Nexus.git
+   git clone https://github.com/<your-username>/ML-Nexus.git
     ```
     
 3. **Navigate into the directory**:
