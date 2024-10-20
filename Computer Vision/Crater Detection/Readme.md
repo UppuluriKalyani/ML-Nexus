@@ -55,6 +55,3 @@ The model effectively detects craters in high-resolution lunar images, especiall
 | Input Image | Crater Detection Output |
 | ----------- | ----------------------- |
 | ![input](images/input_sample.jpg) | ![output](images/output_sample.jpeg) |
-
-## Contributing
-We welcome contributions to enhance the model or add new features. Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information.
