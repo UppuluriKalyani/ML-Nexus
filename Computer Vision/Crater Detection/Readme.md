@@ -10,41 +10,28 @@ This repository contains a machine learning model for detecting lunar craters, p
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 Accurate detection of lunar craters is essential for tasks such as identifying safe landing sites and analyzing the lunar surface. This crater detection model is designed to work efficiently even in low-light conditions found in PSR areas. By incorporating this model, lunar mapping missions can achieve higher precision and reliability.
 
 ## Dataset
-The model was trained on the CIFAR-10 dataset and fine-tuned using lunar surface images to detect craters more effectively. The dataset consists of:
+The model was trained on the **Impact Moon Craters (LU3M6TGT)** dataset, which contains:
 
 - Lunar surface images
 - Ground truth annotations for craters
 
 ## Model Architecture
-The crater detection model is built using a Convolutional Neural Network (CNN) for object detection and image segmentation. Key features include:
-
-- **Input size**: 2048x1024 pixels (adjustable)
-- **Object detection**: Identifies craters and other relevant features on the lunar surface
-- **Low-light optimization**: Specifically fine-tuned for PSR areas
-- **Evaluation metrics**: Precision, Recall, F1-score
+The crater detection model is built using **YOLOv8**, a state-of-the-art Convolutional Neural Network (CNN) for object detection. Key features include:
+- **Input size**: 640x640 pixels (adjustable)
+- **Object detection**: Accurately identifies lunar craters and relevant features
+- **Low-light optimization**: Fine-tuned for detecting craters in Permanently Shadowed Regions (PSR)
 
 ## Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/<your_username>/ML-Nexus.git
+    git clone https://github.com/Kaibalya27/ML-Nexus.git
     cd ML-Nexus/Computer Vision/Crater Detection
-    ```
-
-2. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Install Git LFS (if using large files):**
-    ```bash
-    git lfs install
     ```
 
 ## Usage
@@ -67,10 +54,7 @@ The model effectively detects craters in high-resolution lunar images, especiall
 
 | Input Image | Crater Detection Output |
 | ----------- | ----------------------- |
-| ![input](images/input_sample.jpg) | ![output](images/output_sample.jpg) |
+| ![input](images/input_sample.jpg) | ![output](images/output_sample.jpeg) |
 
 ## Contributing
 We welcome contributions to enhance the model or add new features. Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
