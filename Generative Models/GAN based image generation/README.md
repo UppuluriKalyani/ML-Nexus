@@ -31,6 +31,9 @@ Each training iteration involves:
 
 Throughout training, the generator's ability to produce realistic images improves. You can observe the progression by examining the generated images saved every 10 epochs. The final models are capable of generating images that closely resemble the real images in the CIFAR-10 dataset.
 
+
+![Crater Detection](0bc0cf2c-3d1e-4514-aeed-bd161e094fb0.jpg)
+
 ## Conclusion
 
 This project demonstrates the power and versatility of Generative Adversarial Networks (GANs) in generating realistic images from random noise, using the CIFAR-10 dataset. Throughout the training process, the generator model learns to produce increasingly realistic images, while the discriminator model becomes more adept at distinguishing between real and fake images. Although the GAN model implemented here is relatively simple, it serves as a strong foundation for understanding and exploring more advanced GAN architectures.
