@@ -1,0 +1,4 @@
+Initial Balance: $10000.00
+Final Balance: $15100.08
+Total Profit: $5100.08
+Return: 51.00%
