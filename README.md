@@ -122,6 +122,24 @@ This guide covers:
 
 <br>
 
+## 📚 Deep Learning Roadmap
+
+To get an in-depth overview and roadmap to learn Deep Learning, check out [Deep Learning Roadmap.](DEEP_LEARNING_ROADMAP.md)
+
+This guide covers:
+
+- Overview of deep learning
+- Roadmap to learn deep learning
+- Types of neural networks 🧠
+- Key deep learning concepts
+- Regularization techniques 💡
+- Model optimization 🔧
+- Transfer learning 🚀
+- Deep learning applications 📷📝🔊
+- Best practices and resources
+
+<br>
+
 ## ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
