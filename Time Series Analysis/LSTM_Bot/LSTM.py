@@ -6,14 +6,14 @@ import torch
 import torch.nn as nn
 from sklearn.preprocessing import MinMaxScaler
 
-# 1. Load and preprocess the data
+
 def load_and_preprocess_data(ticker, start_date, end_date):
     data = yf.download(ticker, start=start_date, end=end_date)
     data = data[['Close']]
     data.to_csv(f'data/{ticker}_data.csv')
     return data
 
-# 2. Create sequences
+
 def create_sequences(data, seq_length):
     sequences, targets = [], []
     for i in range(len(data) - seq_length):
@@ -21,7 +21,7 @@ def create_sequences(data, seq_length):
         targets.append(data[i + seq_length])
     return np.array(sequences), np.array(targets)
 
-# 3. Define the LSTM model
+
 class StockLSTM(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers, output_size):
         super(StockLSTM, self).__init__()
@@ -38,9 +38,9 @@ class StockLSTM(nn.Module):
         out = self.fc(out)
         return out
 
-# Main execution
+
 if __name__ == "__main__":
-    # Parameters
+    
     ticker = 'AAPL'
     start_date = '2010-01-01'
     end_date = '2023-01-01'
@@ -52,31 +52,31 @@ if __name__ == "__main__":
     num_epochs = 100
     learning_rate = 0.001
 
-    # Load and preprocess data
+    
     data = load_and_preprocess_data(ticker, start_date, end_date)
     scaler = MinMaxScaler(feature_range=(0, 1))
     scaled_data = scaler.fit_transform(data.values)
 
-    # Create sequences
+    
     X, y = create_sequences(scaled_data, seq_length)
 
-    # Split data
+    
     train_size = int(len(data) * 0.8)
     X_train, X_test = X[:train_size-seq_length], X[train_size-seq_length:]
     y_train, y_test = y[:train_size-seq_length], y[train_size-seq_length:]
 
-    # Convert to PyTorch tensors
+    
     X_train = torch.FloatTensor(X_train)
     X_test = torch.FloatTensor(X_test)
     y_train = torch.FloatTensor(y_train)
     y_test = torch.FloatTensor(y_test)
 
-    # Initialize the model, loss function, and optimizer
+    
     model = StockLSTM(input_size, hidden_size, num_layers, output_size)
     criterion = nn.MSELoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    # Train the model
+    
     for epoch in range(num_epochs):
         model.train()
         optimizer.zero_grad()
@@ -87,23 +87,23 @@ if __name__ == "__main__":
         if (epoch+1) % 10 == 0:
             print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
-    # Make predictions
+    
     model.eval()
     with torch.no_grad():
         train_predictions = model(X_train).numpy()
         test_predictions = model(X_test).numpy()
 
-    # Inverse transform predictions
+    
     train_predictions = scaler.inverse_transform(train_predictions)
     test_predictions = scaler.inverse_transform(test_predictions)
 
-    # Save predictions
+    
     np.savetxt('data/train_predictions.csv', train_predictions, delimiter=',')
     np.savetxt('data/test_predictions.csv', test_predictions, delimiter=',')
 
     print("Model training complete. Predictions saved to data/train_predictions.csv and data/test_predictions.csv")
 
-    # Plotting
+    
     plt.figure(figsize=(12,6))
     plt.plot(data.index[train_size:], data.values[train_size:], label='Actual Prices')
     plt.plot(data.index[train_size:], test_predictions, label='Predicted Prices')
