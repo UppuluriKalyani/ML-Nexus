@@ -13,7 +13,7 @@ Welcome to **Google News Scraper**, a Python notebook designed to extract news a
 
 Click the badge below to run this notebook directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aeleraqi/GoogleNewsScraper/blob/main/GoogleNewsScraper.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1n20gTc01ej7yKbX_3Rj9RSXe9hmAevlK#scrollTo=YxnRP8wyWMPH)
 
 ## 🛠️ Setup & Installation
 
