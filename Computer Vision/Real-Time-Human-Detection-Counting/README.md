@@ -3,37 +3,7 @@
 - A tensorflow based `Faster RCNN inception v2` python model to detect and count humans in real time images, videos & camera.
 - Used pre-trained `frozen_inference_graph.pb` frozen graph to handle the detection.
 - Visualize the data using `Enumeration Plot` and `Avg. Accuracy Plot`.
-
-<p align = "center">
-	<img src = "https://img.shields.io/github/stars/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub Repo stars">
-	<img src = "https://img.shields.io/github/forks/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub Repo forks">
-	<img src = "https://img.shields.io/github/watchers/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub Repo watchers">
-	<img src = "https://img.shields.io/github/contributors/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub contributors">
-</p>
-<p align = "center">
-	<img src = "https://img.shields.io/github/languages/count/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub language count">
-	<img src = "https://img.shields.io/github/languages/top/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub top language">
-	<img src = "https://img.shields.io/github/directory-file-count/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub repo file count">
-	<img src = "https://img.shields.io/github/repo-size/akash-rajak/Real-Time-Human-Detection-Counting?style=social", alt = "GitHub repo size">
-</p>
-<p align = "center">
-	<img src = "https://img.shields.io/github/issues/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub issues">
-	<img src = "https://img.shields.io/github/issues-closed/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub closed issues">
-	<img src = "https://img.shields.io/github/issues-pr/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub pull requests">
-	<img src = "https://img.shields.io/github/issues-pr-closed/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub closed pull requests">
-</p>
-<p align = "center">
-	<img src = "https://img.shields.io/github/commit-activity/t/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub commit activity">
-	<img src = "https://img.shields.io/github/commit-activity/y/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub commit activity/year">
-	<img src = "https://img.shields.io/github/commit-activity/m/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub commit activity/month">
-	<img src = "https://img.shields.io/github/commit-activity/w/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub commit activity/week">
-	<img src = "https://img.shields.io/github/last-commit/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub last commit">
-	<img src = "https://img.shields.io/github/discussions/akash-rajak/Real-Time-Human-Detection-Counting", alt = "GitHub Discussions">
-</p>
-<p align = "center">
-	<img src = "https://img.shields.io/github/license/akash-rajak/Real-Time-Human-Detection-Counting", alt = "Github">
-</p>
-
+- 
 ---
 
 ### 📌REQUIREMENTS :
