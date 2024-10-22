@@ -46,6 +46,10 @@ This project demonstrates a real-time face blurring application using OpenCV. It
 
 - **Exiting the Application**: Pressing the 'q' key will terminate the video stream and close all windows.
 
+## Result
+
+![result](./result.jpeg)
+
 ## Acknowledgements
 
 - This project uses the OpenCV library, which is a powerful tool for image processing and computer vision tasks.
