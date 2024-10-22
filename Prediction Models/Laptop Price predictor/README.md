@@ -4,12 +4,11 @@
 * [Problem Statement](#problem-statement)
 * [Data Set](#data-set)
 * [File Description](#file-description)
-* [System Methodology](#system-methodology)
 * [Usage](#usage)
 ## Introduction
-* This project introduces a Web Based Appliaction system designed to predict laptop prices using supervised machine learning techniques. The study employs a random decision forest as the predictive model, achieving a precision in price estimation.
+* This project is designed to predict laptop prices using supervised machine learning techniques. The study employs a voting regression technique as the predictive model, achieving a precision in price estimation.
 
-* In this approach, the random decision forest utilizes several independent variables to predict a single dependent variable: the laptop price. The model compares actual and predicted values to assess the accuracy of its predictions.
+* In this approach, the voting regression model combines prediction of several different models that utilizes several independent variables to predict a single dependent variable: the laptop price. The model compares actual and predicted values to assess the accuracy of its predictions.
 
 * The project proposes a method where the price of a laptop, the dependent variable, is forecasted based on factors such as the laptop Company,Type,Inches,Screen Resoution, RAM size, weight,storage type (HDD/SSD), GPU Brand, CPU Brand, IPS ,Operating System and whether it includes a touch screen.
 
@@ -29,8 +28,6 @@ The dataset utilized in this project is 'laptop_data.csv', which includes detail
 ## File Description
 **Laptop_price_prediction.ipynb** - This Jupyter notebook contains the complete code for this project including data preprocessing, EDA, feature engineering, model building, and evaluation.
 
-**app.py** is the primary Python script that contains the main application logic.
-
 **df.pkl** - Pickle file of the processed data used in the model.
 
 **pipe.pkl** - Pickle file of the machine learning pipeline used in the model.
@@ -39,21 +36,10 @@ The dataset utilized in this project is 'laptop_data.csv', which includes detail
 
 **requirements.txt** is a file used to list dependencies for the project.
 
-## System Methodology
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/34a6ca4e-5199-42f7-9e9e-cd93fbd13c6b" alt="Alt Text" width="750" />
-</p>
 
 ## Usage
 To use the laptop price predictor, follow these instructions:
 
-1.Copy the URL link provided below and paste it into your browser to access the webpage.
+1.Input the specifications of the laptop for which you want to estimate the price.
 
-```
-https://laptop-price-predictor-1-teve.onrender.com
-```
-
-2.Input the specifications of the laptop for which you want to estimate the price.
-
-3.The system will utilize the trained model to calculate and display the predicted price.
+2.The system will utilize the trained model to calculate and display the predicted price.
