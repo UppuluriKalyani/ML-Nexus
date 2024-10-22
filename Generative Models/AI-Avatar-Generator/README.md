@@ -1,4 +1,4 @@
-# 🤖🌐 AI Anime Avatar Generator using OpenCV and Matplotlib 
+# 🤖 AI Anime Avatar Generator using OpenCV and Matplotlib 
 
 This repository contains a Python script to transform any given image into a smooth, anime-like avatar with soft edges, vibrant colors, and smooth shading transitions. The effect is inspired by traditional anime art styles. The project uses OpenCV and Matplotlib for image processing and display.
 
@@ -84,6 +84,7 @@ Matplotlib: A popular Python library for visualizing data. Here, it is used to d
 - Implement image resizing before processing to reduce the workload on your system.
 - Consider implementing GPU acceleration with libraries like CuPy or CUDA.
 ## 🧰 Troubleshooting
+
 - Common Issues:
 No Module Named ‘cv2’ Error:
 
@@ -94,5 +95,6 @@ Image Not Displaying Properly:
 - Slow Processing:
 Large images may take longer to process due to the multiple filters being applied. You can try reducing the image resolution before applying the anime effect.
 ## 📜 License
+
 - This project is licensed under the MIT License. You are free to use, modify, and distribute this code as long as you include a copy of the license with your project. For more details, see the LICENSE file.
 
