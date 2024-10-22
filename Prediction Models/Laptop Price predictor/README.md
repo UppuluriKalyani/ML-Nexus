@@ -6,7 +6,6 @@
 * [File Description](#file-description)
 * [System Methodology](#system-methodology)
 * [Usage](#usage)
-* [Our Team](#our_team)
 ## Introduction
 * This project introduces a Web Based Appliaction system designed to predict laptop prices using supervised machine learning techniques. The study employs a random decision forest as the predictive model, achieving a precision in price estimation.
 
@@ -58,55 +57,3 @@ https://laptop-price-predictor-1-teve.onrender.com
 2.Input the specifications of the laptop for which you want to estimate the price.
 
 3.The system will utilize the trained model to calculate and display the predicted price.
-
-## Our Team
-If you have any inquiries or encounter any issues, feel free to reach out. Our team is here to assist you and ensure you have a good experience. Don't hesitate to contact us with any concerns or feedback.
-
-### Kaibalya Mohapatra 
-
-<a href="https://www.linkedin.com/in/kaibalyamohapatra/"><img align="left" src="https://github.com/user-attachments/assets/91a936a6-0a68-4523-b9dc-3657749246e8" alt="icon | LinkedIn" width="21px"/></a>
-<a href="https://github.com/Kaibalya27"><img align="left" src="https://github.com/user-attachments/assets/8521e6ca-c203-4c98-a510-1ed549610e10" alt="github icon" width="21px"/></a>
-<br><br>
-
-
-### Shreya Tripathy
-
-<a href="https://www.linkedin.com/in/shreyatripathy7"><img align="left" src="https://github.com/user-attachments/assets/91a936a6-0a68-4523-b9dc-3657749246e8" alt="icon | LinkedIn" width="21px"/></a>
-<a href="https://github.com/Shreya7tripathy"><img align="left" src="https://github.com/user-attachments/assets/8521e6ca-c203-4c98-a510-1ed549610e10" alt="github icon" width="21px"/></a>
-<br><br>
-
-
-### Priyanshu Pattanayak 
-
-<a href="https://www.linkedin.com/in/priyanshu-pattanayak/"><img align="left" src="https://github.com/user-attachments/assets/91a936a6-0a68-4523-b9dc-3657749246e8" alt="icon | LinkedIn" width="21px"/></a>
-<a href="https://github.com/mavricx"><img align="left" src="https://github.com/user-attachments/assets/8521e6ca-c203-4c98-a510-1ed549610e10" alt="github icon" width="21px"/></a>
-<br><br>
-
-### Saurav lipsit Parija
-
-<a href="https://www.linkedin.com/in/saurav-lipsit-parija-870828290/"><img align="left" src="https://github.com/user-attachments/assets/91a936a6-0a68-4523-b9dc-3657749246e8" alt="icon | LinkedIn" width="21px"/></a>
-<a href="https://github.com/sauravlipsit"><img align="left" src="https://github.com/user-attachments/assets/8521e6ca-c203-4c98-a510-1ed549610e10" alt="github icon" width="21px"/></a>
-<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
