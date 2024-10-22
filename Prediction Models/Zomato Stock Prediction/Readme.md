@@ -46,7 +46,7 @@ The LSTM model has the following architecture:
 
 The model uses the following configuration:
 - Loss function: Mean Squared Error (MSE)
-- Optimizer: Adam
+- Optimizer: Adam Optimizer
 
 ## How to Run
 
