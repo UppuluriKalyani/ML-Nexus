@@ -1,6 +1,6 @@
 # SmartDocMate - AI-Powered Interactive Document Assistant
 
-An AI-powered interactive assistant that can deeply understand and help users navigate complex documents such as legal contracts, research papers, technical manuals, or lengthy reports. Using GenAI, AI agents, and vector databases, the system intelligently summarizes sections, answers specific questions, and retrieves relevant content based on the user’s query.
+An AI-powered interactive assistant that can deeply understand and help users navigate complex documents such as legal contracts, research papers, technical manuals, or lengthy reports. Using GenAI, AI agents, and vector databases, the system intelligently summarizes sections, answers specific questions, and retrieves relevant content based on the user’s query. This system also incorporates generation of voice output from text using gTTS and Streamlit's st.audio for playback.  Additionally, voice to text can also be performed using PyAudio. 
 
 ## How It Works:
 
