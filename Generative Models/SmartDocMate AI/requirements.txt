@@ -1,0 +1,17 @@
+streamlit
+wheel
+transformers
+langchain
+langchain_community
+langchain_google_genai
+groq 
+SpeechRecognition
+gtts 
+python-dotenv
+tiktoken
+sentence-transformers
+faiss-cpu
+InstructorEmbedding
+google-generativeai
+annoy==1.17.0
+pypdf
