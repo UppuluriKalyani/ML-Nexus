@@ -25,13 +25,16 @@ An AI-powered interactive assistant that can deeply understand and help users na
 
 1. Fork the repository and install all the necessary modules from requirements.txt file
 2. Set up your free Groq API account and create an API key. Ensure to replace "your_groq_api_key" in the code with your created key.
+   ```
+   client = Groq(api_key=os.getenv("YOUR_GROQ_API_KEY"))
+   ```
 3. Import the standard Chat Completion template from Groq and use model="llama3-8b-8192" or any available chat completion models as a compulsory parameter for language model inference.
 4. Use GoogleGenerativeAIEmbeddings from Langchain with the correct model identifier .Ensure your Google GenAI API key is set up properly in your environment.
 5. Additionaly integrate **gTTS** (Google Text-to-Speech) for generating voice output text-to-speech and Streamlit's **st.audio** for playback.
 6. Run the streamlit app
-   <code>
-                                            streamlit run app.py
-   </code>
+   ```
+   streamlit run app.py
+   ```
 
 ## Screenshots
 ![Screenshot_1](https://github.com/user-attachments/assets/18c004e3-9275-45d4-8f42-ff572383221b)
