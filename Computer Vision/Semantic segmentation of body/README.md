@@ -23,4 +23,4 @@ Key components:
 ## Dataset
 The VITON dataset consists of images and corresponding masks. The dataset is used to train the U-Net model to generate segmentation masks for clothing in an image.
 
-The dataset structure:
+
