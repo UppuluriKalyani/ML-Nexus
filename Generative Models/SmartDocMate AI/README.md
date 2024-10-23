@@ -28,6 +28,10 @@ An AI-powered interactive assistant that can deeply understand and help users na
 3. Import the standard Chat Completion template from Groq and use model="llama3-8b-8192" or any available chat completion models as a compulsory parameter for language model inference.
 4. Use GoogleGenerativeAIEmbeddings from Langchain with the correct model identifier .Ensure your Google GenAI API key is set up properly in your environment.
 5. Additionaly integrate **gTTS** (Google Text-to-Speech) for generating voice output text-to-speech and Streamlit's **st.audio** for playback.
+6. Run the streamlit app
+   <code>
+                                            streamlit run app.py
+   </code>
 
 ## Screenshots
 ![Screenshot_1](https://github.com/user-attachments/assets/18c004e3-9275-45d4-8f42-ff572383221b)
