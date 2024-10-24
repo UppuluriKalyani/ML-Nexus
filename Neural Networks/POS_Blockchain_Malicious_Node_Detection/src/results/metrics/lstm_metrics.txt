@@ -1,0 +1,10 @@
+LSTM Model Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88      5771
+           1       0.84      0.83      0.83      4229
+
+    accuracy                           0.86     10000
+   macro avg       0.86      0.86      0.86     10000
+weighted avg       0.86      0.86      0.86     10000
