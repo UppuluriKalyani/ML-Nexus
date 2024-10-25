@@ -54,3 +54,5 @@ During training, the model achieved the following performance:
 
 ## Conclusion
 This project illustrates how the Functional API can be used to create sophisticated deep learning models capable of handling multiple outputs. By combining the flexibility of the Functional API with the strength of transfer learning, the model achieves robust performance in predicting both age and gender."
+
+![Screenshot (58)](https://github.com/user-attachments/assets/21593b12-e8f4-4678-88b4-e3daabea51b3)
