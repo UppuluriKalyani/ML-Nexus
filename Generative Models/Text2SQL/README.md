@@ -37,3 +37,5 @@ Text-to-SQL is a task in natural language processing (NLP) where the goal is to 
 streamlit run app.py
 ```
 ## Screenshots
+![image](https://github.com/user-attachments/assets/d5234239-c985-4362-a8ab-0fba13775884)
+
