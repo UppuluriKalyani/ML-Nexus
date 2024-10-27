@@ -23,6 +23,12 @@ Text-to-SQL is a task in natural language processing (NLP) where the goal is to 
    ```
    pip install torch transformers bitsandbytes accelerate sqlparse streamlit PyPDF2
    ```
+3. Alternatively set up a Groq account and use Groq API or OpenAI's GPT-4-turbo for dynamic generation of table definitions given a context
+   ```
+   groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+   ```
+4. To generate a modified version of Text2SQL chatbot import the text2sql.core package that will dynamically interpret natural language queries and convert them into SQL commands for PostgreSQL, utilizing OpenAI's GPT-3.5-turbo for language understanding. Additionally, it will have functionalities to interact with PostgreSQL through the database_connector module. This implementation does not use GPU or CUDA and is CPU-Compatible.
+   
 ## Running the App
 1. Clone the repository
   ```
