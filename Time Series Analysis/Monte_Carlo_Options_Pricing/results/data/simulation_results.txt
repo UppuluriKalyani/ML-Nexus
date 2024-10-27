@@ -1,0 +1,10 @@
+Simulation Parameters:
+Initial Stock Price: 100.0
+Strike Price: 100.0
+Time to Maturity: 1.0 years
+Risk-free Rate: 0.05
+Volatility: 0.2
+
+Results:
+European Call Option Price: 10.3612
+European Put Option Price: 5.5227
