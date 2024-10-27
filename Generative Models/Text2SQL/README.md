@@ -9,7 +9,7 @@ Text-to-SQL is a task in natural language processing (NLP) where the goal is to 
 3. Machine Learning Models: Sequence-to-Sequence models, Transformers
 4. SQL Query LLM : Hugging Face Defog's SQLCoder for query generation and execution
 5. Database Management Systems (DBMS): MySQL
-6. Frameworks: Streamlit for frontend interactive UI, Flask for backend
+6. Frameworks: Streamlit for frontend interactive UI (alternatively select Flask for backend)
 
 ## Features
  - Chatbot Interface: Interact with a conversational bot that can greet you, respond to common phrases, and answer SQL-related questions.
