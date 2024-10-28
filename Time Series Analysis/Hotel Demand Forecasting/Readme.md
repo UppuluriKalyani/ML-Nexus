@@ -35,4 +35,8 @@ The primary goals of this project are:
 4. **Forecast Visualization**: Visualize forecast results and analyze predicted demand trends.
 5. **Report Generation**: Generate a summary report with actionable insights for revenue and operational improvement.
 
+## Results
+![image](https://github.com/user-attachments/assets/dc88d5a0-1ba9-42a6-ab1b-cd30078d9e71)
+
+
 This project provides a robust foundation for predicting hotel demand and uncovering opportunities for operational and revenue enhancements.
