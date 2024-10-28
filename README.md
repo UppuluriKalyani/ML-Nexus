@@ -220,7 +220,7 @@ You can refer to the following articles on the basics of Git and Github.
 	<tr>
 		<td align="center">
 			<a href="https://github.com/UppuluriKalyani">
-				<img src="https://avatars.githubusercontent.com/u/105410881?v=4" width="100px" alt="" />
+				<img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/a69f9f5e297b91383335f908a66a17e0.jpg" width="100px" alt="" />
 				<br /> <sub><b>Kalyani</b></sub>
 			</a>
 			<br /> <a href="https://github.com/UppuluriKalyani"> 
