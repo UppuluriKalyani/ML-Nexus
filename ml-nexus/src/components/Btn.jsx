@@ -1,8 +1,11 @@
 import React from 'react'
-
-function Btn() {
+import { FaGithub } from "react-icons/fa";
+function Btn({value, git=false }) {
   return (
-    <div>Btn</div>
+    <button className=' flex items-center py-2 px-5 rounded-full dark:bg-[#61B3A0] dark:text-[#28333F] gap-2 '>
+      {git && <FaGithub />}
+      {value}
+    </button>
   )
 }
 
