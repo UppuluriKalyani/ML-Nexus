@@ -1,0 +1,6 @@
+Pillow==10.1.0
+timm==0.9.10
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.36.0
+sentencepiece==0.1.99
