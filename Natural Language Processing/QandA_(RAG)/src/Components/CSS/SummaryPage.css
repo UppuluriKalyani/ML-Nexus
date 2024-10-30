@@ -1,0 +1,27 @@
+.summary-page-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 120vh; 
+}
+
+
+.rectangle-box {
+    background-color: #f0f0f0;
+    max-width:800px;
+    max-height:800px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    border-radius:20px;
+}
+
+.text-sixe{
+    font-weight: bold;
+}
+
+.text-aligning{
+    justify-content: center; /*horizontally in middle*/
+    align-items: center;/*vertically in middle*/
+}
