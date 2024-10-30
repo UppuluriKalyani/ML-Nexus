@@ -1,0 +1,95 @@
+Program for Recursive binary search :
+""
+BinarySearch_recursive.java
+import java.util.*;
+class BinarySearch_recursive
+{
+"int binarySearch(int array[], int x, int low, int high) {"
+""
+if (high >= low) {
+int mid = low + (high - low) / 2;
+""
+"// If found at mid, then return it"
+if (array[mid] == x)
+return mid;
+""
+// Search the left half
+if (array[mid] > x)
+"return binarySearch(array, x, low, mid - 1);"
+""
+// Search the right half
+"return binarySearch(array, x, mid + 1, high);"
+}
+""
+return -1;
+}
+""
+public static void main(String args[])
+{
+BinarySearch_recursive ob = new BinarySearch_recursive();
+""
+Scanner sc=new Scanner(System.in);
+""
+"System.out.println(""enter array size"");"
+""
+int n = sc.nextInt();
+""
+int array[]=new int[n];
+""
+"System.out.println(""enter the elements of array "");"
+""
+for(int i=0;i<n;i++)
+{
+array[i] =sc.nextInt();
+}
+// Applying sort() method over to above array
+// by passing the array as an argument
+Arrays.sort(array);
+""
+// Printing the array after sorting
+"System.out.println(""sorted array[]:""+ Arrays.toString(array));"
+"System.out.println(""Enter the key"");"
+int key=sc.nextInt();
+""
+""
+"int result = ob.binarySearch(array, key, 0, n - 1);"
+if (result == -1)
+"System.out.println(""Element Not found"");"
+else
+"System.out.println(""Element found at index "" + result);"
+}
+""
+Output:
+Case=1
+enter array size5
+enter the elements of array 15
+35
+25
+95
+65
+"sorted array[]:[15, 25, 35, 65, 95]"
+Enter the key
+65
+Element found at index 3
+Case=2
+enter array size5
+enter the elements of array 15
+35
+25
+95
+65
+"sorted array[]:[15, 25, 35, 65, 95]"
+Enter the key
+30
+Element Not found
+""
+,
+Applications:,
+,
+,1. Median of two sorted arrays.
+,2. Find the fixed point in a given array.
+,3. Find Smallest Common Element in All Rows.
+,4. Longest Common Prefix.
+,5. Koko Eating Bananas.
+,
+1. Median of two sorted arrays.,
