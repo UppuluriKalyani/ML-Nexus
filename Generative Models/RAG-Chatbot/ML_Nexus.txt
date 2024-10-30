@@ -1,0 +1,146 @@
+Welcome to the ML-NEXUS Zone⚙️⏳
+
+ML-Nexus
+A dynamic hub of Machine Learning innovations, where hands-on projects and collaborative experiments come together to inspire open-source contributions and foster a community of shared learning.
+
+This repository is a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're new to the field or a seasoned expert, there's something for everyone to contribute to. Dive into neural networks, computer vision, natural language processing (NLP), and more. Join our vibrant community, share your ideas, and help shape the future of AI—together!
+
+NOTE: You're limited to earning a maximum of 200 points from this repo. Additionally, we can't accept any ideas or features if your score already exceeds 200 points.
+
+Join official Discord Channel for discussion
+
+
+Natural Language Processing (NLP)
+Meshery - Service Mesh Management PlaneNatural Language Processing (NLP) Projects in this area involve working with text data, such as sentiment analysis, language translation, text summarization, and chatbot development using techniques like tokenization, word embeddings, and transformers.
+
+
+
+Computer Vision
+Meshery - Service Mesh Management PlaneComputer Vision Contributors can explore projects related to image classification, object detection, facial recognition, and image segmentation using tools like OpenCV, convolutional neural networks (CNNs), and transfer learning.
+
+
+
+Neural Networks
+Meshery - Service Mesh Management PlaneNeural Networks Neural networks power most deep learning models. Contributions could include creating models for image classification, regression tasks, sequence prediction, and generative models using frameworks like TensorFlow or PyTorch.
+
+
+
+Generative Models
+Meshery - Service Mesh Management PlaneGenerative Models This includes working on projects related to Generative Adversarial Networks (GANs) for image generation, text-to-image models, or style transfer, contributing to fields like art creation and synthetic data generation.
+
+
+
+Time Series Analysis
+Meshery - Service Mesh Management PlaneTime Series Analysis Contributors can work on analyzing temporal data, building models for stock price prediction, climate forecasting, or IoT sensor data analysis using LSTM or GRU networks.
+
+
+
+
+Transfer Learning
+Meshery - Service Mesh Management PlaneTransfer Learning Explore projects where pre-trained models are fine-tuned for specific tasks, such as custom object detection or domain-specific text classification, reducing the need for extensive training data.
+
+
+📚 Machine Learning Resources
+This project uses a number of key libraries to implement machine learning models and data processing pipelines. To help you better understand these libraries and their roles in the project, we've created a dedicated guide.
+
+For an in-depth overview of the most important libraries used in this project, including their features and functionalities, check out the Machine Learning Libraries Overview.
+
+This guide covers:
+
+NumPy 🧮 for numerical computations.
+Pandas 📊 for data manipulation.
+TensorFlow 🤖 and PyTorch 🔥 for deep learning.
+And more!
+We encourage you to explore this document to gain a deeper understanding of the tools that power our machine learning workflows.
+
+📚 Generative AI resources
+To get in-depth overview and roadmap to learn Generative AI. Check out Generative AI Roadmap.
+
+This guide covers:
+
+Overview of generative AI
+Roadmap to learn Generative AI
+LLM models 🤖
+Retrieval Augumented Generation (RAG)
+Vector and graph databases
+Embedding models
+Inference APIs
+PDF scrapping 🗒️
+AI agents 🤖
+
+📚 Deep Learning Roadmap
+To get an in-depth overview and roadmap to learn Deep Learning, check out Deep Learning Roadmap.
+
+This guide covers:
+
+Overview of deep learning
+Roadmap to learn deep learning
+Types of neural networks 🧠
+Key deep learning concepts
+Regularization techniques 💡
+Model optimization 🔧
+Transfer learning 🚀
+Deep learning applications 📷📝🔊
+Best practices and resources
+
+
+⭐ How to get started with open source?
+
+
+You can refer to the following articles on the basics of Git and Github.
+
+Watch this video to get started, if you have no clue about open source
+Forking a Repo
+Cloning a Repo
+How to create a Pull Request
+Getting started with Git and GitHub
+
+
+
+💥 How to Contribute to ML-Nexus?
+Take a look at the Existing Issues or create your own Issues!
+Wait for the Issue to be assigned to you.
+Fork the repository
+click on the uppermost button 
+
+Fork the repository to your own GitHub account.
+
+Clone the repository to your local machine:
+
+git clone https://github.com/<your-username>/ML-Nexus.git
+Navigate into the directory:
+
+cd ML-Nexus
+Install dependencies (if applicable):
+
+npm install
+Create a new branch for your changes:
+
+git checkout -b <your-branch-name>
+Make your changes, commit, and push:
+
+git add .
+git commit -m "Your message here"
+git push origin <your-branch-name>
+Submit a pull request:
+
+Go to the original repository on GitHub.
+Click on the "Pull Requests" tab.
+Click the "New Pull Request" button.
+Select your feature branch and submit the pull request.
+Wait for review and feedback.
+
+Address any comments or requested changes.
+Once approved, your feature will be merged into the main branch.
+Have a look at Contributing Guidelines
+Read the Code of Conduct
+
+❤️ Project Admin
+
+👑 Admin
+Kalyani
+
+💻 Project Mentors
+
+Sai Nivedh V  🔧 Mentor
+Pratyay Banerjee 🔧 Mentor
