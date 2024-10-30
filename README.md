@@ -155,6 +155,55 @@ You can refer to the following articles on the basics of Git and Github.
   <br>
   <br>
   
+ ### Troubleshooting
+
+This section addresses some common issues you may encounter while setting up or using ML-Nexus. If you run into problems not listed here, please feel free to consult our community or open a new issue.
+
+#### 1. Installation Issues
+- **Problem**: Error related to dependencies during installation.
+  - **Solution**: Ensure you have the required versions of all dependencies by running:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - For missing packages, try installing them individually:
+    ```bash
+    pip install <missing-package-name>
+    ```
+
+#### 2. Permission Denied Errors
+- **Problem**: "Permission denied" error while cloning or pushing to the repository (via SSH/HTTPS).
+  - **Solution**: Ensure you have the correct SSH keys set up or use HTTPS. To clone via HTTPS, use:
+    ```bash
+    git clone https://github.com/UppuluriKalyani/ML-Nexus.git
+    ```
+  - If SSH is preferred, add your SSH key to GitHub using [these steps](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+#### 3. Outdated Packages
+- **Problem**: Errors caused by outdated packages that are incompatible with ML-Nexus.
+  - **Solution**: Update all packages by running:
+    ```bash
+    pip install --upgrade -r requirements.txt
+    ```
+  - Alternatively, update individual packages if specified in the error logs:
+    ```bash
+    pip install --upgrade <package-name>
+    ```
+
+#### 4. Common Runtime Errors
+- **Problem**: Unexpected errors or crashes when running scripts.
+  - **Solution**: Make sure you’re using the correct Python version (e.g., Python 3.8+). You can check your Python version with:
+    ```bash
+    python --version
+    ```
+  - If issues persist, try creating a fresh virtual environment:
+    ```bash
+    python -m venv myenv
+    source myenv/bin/activate  # For Windows: myenv\Scripts\activate
+    pip install -r requirements.txt
+    ```
+
+For further assistance, feel free to reach out to our community or check the [issues section](https://github.com/UppuluriKalyani/ML-Nexus/issues) on GitHub.
+
 
 ## 💥 How to Contribute to ML-Nexus?
 
