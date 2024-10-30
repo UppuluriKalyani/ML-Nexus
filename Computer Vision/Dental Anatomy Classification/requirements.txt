@@ -1,0 +1,4 @@
+Python 3.x
+PyTorch
+OpenCV
+YOLOv9

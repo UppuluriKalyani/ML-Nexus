@@ -1,0 +1,73 @@
+# --- Core Libraries ---
+numpy==1.26.4              # Core numerical computations
+pandas==2.2.2              # Data manipulation and analysis
+python-dateutil==2.9.0.post0  # Date and time handling
+pytz==2024.1               # Timezone handling
+
+# --- Web Frameworks & Streamlit ---
+streamlit==1.35.0          # Web app framework for interactive data applications
+streamlit-camera-input-live==0.2.0  # Camera input for Streamlit apps
+streamlit-option-menu==0.3.12  # Sidebar navigation menu
+streamlit-extras==0.4.2     # Extra Streamlit widgets
+streamlit-card==1.0.2       # Streamlit widget to create card components
+streamlit-toggle-switch==1.0.2  # Toggle switch widget
+streamlit-faker==0.0.3      # Streamlit widget to generate fake data for testing
+st-annotated-text==4.0.1    # Streamlit annotated text widget for UI
+streamlit-vertical-slider==2.5.5  # Custom slider for Streamlit
+streamlit-image-coordinates==0.1.6  # Capture image coordinates in Streamlit
+
+# --- PDF and Document Processing ---
+pypdf==4.2.0               # PDF file reading and manipulation
+lxml==5.2.2                # XML and HTML processing
+faiss-cpu==1.8.0           # FAISS for similarity search and vector stores
+
+# --- LangChain & Language Models ---
+langchain==0.2.1           # LangChain framework for LLMs
+langchain-community==0.2.1 # LangChain extensions by the community
+langchain-core==0.2.1      # Core LangChain package
+langchain-openai==0.1.7    # OpenAI embeddings for LangChain
+langchain-groq==0.1.4      # Groq AI integration for LangChain
+
+# --- Large Language Model Embeddings & Similarity ---
+openai==1.30.2             # OpenAI's API wrapper
+tiktoken==0.7.0            # Tokenization library for LLMs
+Faker==25.2.0              # Fake data generation for testing
+
+# --- Asynchronous & HTTP Requests ---
+aiohttp==3.9.5             # Asynchronous HTTP client/server framework
+httpx==0.27.0              # HTTP client for Python, async-friendly
+certifi==2024.2.2          # Certificate handling for secure HTTPS connections
+
+# --- API Utilities & Environment ---
+python-dotenv==1.0.1       # Load environment variables from .env files
+requests==2.32.2           # Simplified HTTP request library
+validators==0.28.2         # Data validation utilities
+
+# --- Visualization & UI ---
+altair==5.3.0              # Declarative statistical visualization library
+matplotlib==3.9.0          # Plotting library for static, animated, and interactive visualizations
+pydeck==0.9.1              # 3D map visualization
+pillow==10.3.0             # Image processing capabilities
+
+# --- Schema Validation & Dataclasses ---
+dataclasses-json==0.6.6    # Serialization and deserialization for dataclasses
+pydantic==2.7.1            # Data validation and settings management using Python type annotations
+jsonschema==4.22.0         # JSON schema validation
+
+# --- Utility Libraries ---
+tqdm==4.66.4               # Progress bars for loops
+tenacity==8.3.0            # Retry library for dealing with unreliable APIs
+toolz==0.12.1              # Functional programming utilities
+more-itertools==10.2.0     # Additional tools for Python's `itertools`
+
+# --- Others (Logging, Markup, Miscellaneous) ---
+blinker==1.8.2             # Event-driven architecture support
+Markdown==3.6              # Support for Markdown in Python
+rich==13.7.1               # Rich text formatting for the terminal
+GitPython==3.1.43          # Git version control via Python
+watchdog==4.0.1            # File system monitoring
+
+# --- FAISS Dependencies (for AI similarity search) ---
+protobuf==4.25.3           # Protocol buffers for FAISS
+orjson==3.10.3             # Fast JSON parsing
+pyarrow==16.1.0            # High-performance data processing with FAISS

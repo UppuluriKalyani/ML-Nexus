@@ -1,0 +1,56 @@
+name: Auto Comment on PR Open
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  comment-on-open:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Add Comment to Opened PR
+      run: |
+        COMMENT=$(cat <<EOF
+        {
+          "body": "👋 Thank you for opening this pull request! We appreciate your contribution to improving this project. Your PR is under review, and we'll get back to you shortly. \nDon't forget to mention the issue you solved!.\n\nTo help move the process along, please tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh26 for a faster review!"
+        }
+        EOF
+        )
+        RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+          -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+          -d "$COMMENT")
+        cat response.json
+        if [ "$RESPONSE" -ne 201 ]; then
+          echo "Failed to add comment on PR open"
+          exit 1
+        fi
+
+    - name: Add Reviewer to Pull Request
+      run: |
+        REVIEWERS=$(cat <<EOF
+        {
+          "reviewers": ["UppuluriKalyani","Neilblaze","SaiNivedh26"]
+        }
+        EOF
+        )
+        RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+          -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/requested_reviewers \
+          -d "$REVIEWERS")
+        cat response.json
+        if [ "$RESPONSE" -ne 201 ]; then
+          echo "Failed to add reviewer"
+          exit 1
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,38 @@
+name: Issue Reminder
+
+on:
+  schedule:
+    - cron: '15 4 * * *'  
+
+jobs:
+  remind-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for old issues
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: issues } = await github.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100, // Adjust as necessary
+            });
+
+            const now = new Date();
+            const sevenDaysAgo = new Date(now.setDate(now.getDate() - 7));
+
+            for (const issue of issues) {
+              const updatedAt = new Date(issue.updated_at);
+              if (updatedAt < sevenDaysAgo) {
+                const commentBody = `🚨 Reminder: This issue has been open for over 7 days without updates. Please take action!`;
+                
+                await github.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: commentBody,
+                });
+              }
+            }

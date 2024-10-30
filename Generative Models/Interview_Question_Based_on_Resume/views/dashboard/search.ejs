@@ -1,0 +1,16 @@
+<% if (results) { %>
+    <h2 class="text-center mb-4">Questions and Answers for <%= results.title %></h2>
+    <div class="mb-4">
+      <% results.question.forEach((question, index) => { %>
+        <div class="card mb-2">
+          <div class="card-header">
+            Question <%= index + 1 %>
+          </div>
+          <div class="card-body">
+            <p class="card-text"><%= question %></p>
+            <p class="card-text"><strong>Answer:</strong> <%= results.answers[index] %></p>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  <% } %>

@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+	--blue: #0071FF;
+	--light-blue: #B6DBF6;
+	--dark-blue: #005DD1;
+	--grey: #f2f2f2;
+}
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: var(--light-blue);
+}
+
+.container {
+	max-width: 400px;
+	width: 100%;
+	background: #fff;
+	padding: 30px;
+	border-radius: 30px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    font-size: 13px;
+}
+
+.title {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background: rgb(226, 220, 220);
+	margin-bottom: 20px;
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.img-area {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: var(--grey);
+	margin-bottom: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img-area .icon {
+	font-size: 100px;
+}
+
+.img-area h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 6px;
+}
+
+.img-area p {
+	color: #999;
+}
+
+.img-area img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	z-index: 100;
+	display: none;
+}
+
+.img-area.show-img img {
+	display: block;
+}
+.img-area::before {
+	content: attr(data-img);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+	opacity: 0;
+	transition: all .3s ease;
+	z-index: 200;
+}
+
+.img-area.active:hover::before {
+	opacity: 1;
+}
+
+.select-image,
+.submit-image,
+.upload-another {
+	display: block;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 15px;
+	background: var(--blue);
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: all .3s ease;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.select-image:hover,
+.submit-image:hover,
+.upload-another:hover {
+	background: var(--dark-blue);
+}
+
+.submit-image {
+	margin-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.menu-toggle {
+    display: none;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.image_display {
+	margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+	font-size: 25px;
+	font-weight: 700;
+	font-size: 1.5rem; /* Adjust font size as needed */
+    text-align: center;
+    padding: 0 20px; /* Adds space on both sides */
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    
+    .navigation {
+        display: none;
+        flex-direction: column;
+        background: black;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+
+    .navigation a {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    
+    }
+
+    .wrapper {
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+	.info {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 480px) {
+    .info {
+        padding: 0 10px; /* Further adjust padding for smaller screens */
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Recognizer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo">AutoPredX</h2>
+        <nav class="navigation" id="nav">
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <ion-icon name="menu"></ion-icon>
+        </div>
+    </header>
+    
+    <div align="center">
+        <h2 class="info">A Deep Learning Model Developed Using Convolutional Neural Networks (CNN)</h2>
+        <div class="container" align="center">
+            <p class="title" align="center">Vechicle Recognizer AI</p>
+            {% if file_path %}
+                <div class="result" align="center">
+                    <h2 class="image_display">This is {{ label }}</h2>
+                    <img class="img-area" src="{{ url_for('static', filename=file_path) }}" alt="Uploaded Image">
+                    <button class="upload-another" type="button" onclick="window.location.href='/'">Upload Another Image</button>
+                </div>
+            {% else %}
+                <form action="/" method="post" enctype="multipart/form-data">
+                    <input type="file" id="file" name="file" accept="image/*" hidden>
+                    <div class="img-area" data-img="">
+                        <i class='bx bxs-cloud-upload icon'></i>
+                        <h3>Upload Image</h3>
+                        <img id="previewImg" src="" alt="Image Preview" style="display:none;">
+                    </div>
+                    <button class="select-image" type="button">Select Image</button>
+                    <button class="submit-image" type="submit">Upload</button>
+                </form>
+            {% endif %}
+        </div>
+    </div>
+    
+    <script>
+        const fileInput = document.getElementById('file');
+        const imgArea = document.querySelector('.img-area');
+        const selectImageBtn = document.querySelector('.select-image');
+        const previewImg = document.getElementById('previewImg');
+
+        selectImageBtn.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', function() {
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    previewImg.src = event.target.result;
+                    previewImg.style.display = 'block';
+                    imgArea.classList.add('show-img');
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script>
+		document.getElementById('mobile-menu').addEventListener('click', function() {
+			const nav = document.getElementById('nav');
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>
