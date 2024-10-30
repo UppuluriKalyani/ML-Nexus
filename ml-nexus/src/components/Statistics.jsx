@@ -1,7 +1,21 @@
 import React, { useContext, useEffect } from 'react'
 import Stats from './Stats'
-import { FaStamp, FaStrava } from 'react-icons/fa'
+import { FaRegWindowMaximize, FaStamp, FaStrava } from 'react-icons/fa'
 import { repoContext } from '../utils/Context'
+import { SiJupyter } from "react-icons/si";
+import { ImHtmlFive2 } from "react-icons/im";
+import { TbBrandPython } from "react-icons/tb";
+import { TbCircleLetterR } from "react-icons/tb";
+import { TbBrandJavascript } from "react-icons/tb";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoNodejs } from "react-icons/io";
+import { VscTerminalPowershell } from "react-icons/vsc";
+import { TbBrandTypescript } from "react-icons/tb";
+import { TbBrandDocker } from "react-icons/tb";
+import { SlPuzzle } from "react-icons/sl";
+import Btn from './Btn';
+
+
 
 function Statistics() {
   const { projects, info, langs } = useContext(repoContext)
@@ -20,6 +34,48 @@ function Statistics() {
 
 
   ]
+  const showIcon = (name) => {
+    console.log(name)
+    switch (name) {
+      case "Jupyter Notebook":
+       return <SiJupyter size="30px" />
+        break;
+      case "HTML":
+       return <ImHtmlFive2 size="30px" />
+      case "Python":
+       return <TbBrandPython size="30px" />
+        break;
+      case "JavaScript":
+       return <TbBrandJavascript size="30px" />
+        break;
+        case "R":
+         return <TbCircleLetterR size="30px" />
+        break;
+        case "CSS":
+         return <DiCss3 size="30px" />
+        break;
+        case "EJS":
+         return <IoLogoNodejs size="30px" />
+        break;
+        case "Shell":
+         return <VscTerminalPowershell size="30px" />
+        break;
+        case "TypeScript":
+         return <TbBrandTypescript size="30px" />
+        break;
+        case "Dockerfile":
+         return <TbBrandDocker size="30px" />
+        break;
+        case "Batchfile":
+         return <FaRegWindowMaximize size="30px" />
+        break;
+
+
+
+      default:
+        break;
+    }
+  }
   return (
     <>
       <div className="p-10 ">
@@ -28,13 +84,21 @@ function Statistics() {
           {info && info.map((data, i) => <Stats data={data} key={i} index={i} />)}
         </div>
         <div className="px-20 flex gap-4">
-          <div className="basis-1/2 h-[60vh] bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 stats overflow-y-auto">
+          <div className="basis-1/2 h-[60vh] dark:bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 stats overflow-y-auto">
             <h1 className='text-2xl'>Languages</h1>
             <div className="p-5">
-            {langs.length > 0 && langs.map((lang,i) => (<h3 className='text-xl mt-7 ' key={i}>{lang.name}</h3>))}
+            {langs.length > 0 && langs.map((lang,i) => (
+              <>
+              <div key={i} className='flex relative items-center mt-7 gap-4'>
+              {showIcon(lang.name)}
+              
+              <h3 className='text-xl' key={i}>{lang.name}</h3>
+              </div>
+              </>
+            ))}
             </div>
           </div>
-          <div className="basis-1/2 h-[60vh] bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 overflow-hidden relative">
+          <div className="basis-1/2 h-[60vh] dark:bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 overflow-hidden relative">
             <h1 className='text-2xl'>Milestones progress</h1>
             <div className="flex items-start p-4 gap-5 overflow-y-scroll max-h-[50vh] stats stats relative">
              <div className="sticky top-0 left-0">
@@ -54,12 +118,21 @@ function Statistics() {
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
+       
 
 
 
       </div>
+      <div className="flex mt-4">
+        <div className="mx-auto h-[30vh] dark:bg-[#3D5966] w-full px-6 flex items-center justify-center">
+            <div className="flex flex-col items-center gap-4">
+            <h1 className='text-2xl flex items-center gap-3' ><span> <SlPuzzle /> </span> Have Something in Mind ? </h1>
+            <Btn value={"Raise issue Now!"}/>
+            </div>
+          </div>
+        </div>
     </>
   )
 }

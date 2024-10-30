@@ -28,12 +28,12 @@ function Context(props) {
             const languagesResult = await axios.get('languages');
             if (!languagesResult) return console.log('Languages not found');
             const languages = languagesResult.data;
-            console.log(languages)
+           
             const allLanguages = Object.entries(languages).map(([name,value]) => ({
                 name,
                 value
             }))
-            console.log(allLanguages)
+           
             setLangs(allLanguages)
             const mostUsedLanguage = Object.keys(languages).reduce((a, b) => languages[a] > languages[b] ? a : b);
 
@@ -71,14 +71,13 @@ function Context(props) {
             console.log(error)
         }
     }
-
     useEffect(() => {
         getRepo()
         getInfo()
     }, [])
 
     return (
-        <repoContext.Provider value={{ projects, info, langs }}>
+        <repoContext.Provider value={{ projects, info, langs, }}>
             {props.children}
         </repoContext.Provider >
     )
