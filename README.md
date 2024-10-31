@@ -1,14 +1,57 @@
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=F75C7E&center=true&vCenter=true&width=600&lines=Welcome+to+the+ML-NEXUS+Zone⚙️⏳" alt="Typing SVG" />
+  </a>
+</div>
+
+<br>
 <div align="center">
   <img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/mlnexus.jpg" width="200" height="200">
 </div>
-<div align="center">
+
+
+## 📋 Participating Programs
+
+| Name                  | Logo                                                      | Purpose                                                                                                      |
+|-----------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| GSSoC'2024-Extd       | ![GSSoC Logo](assets/GSSoC-Ext.png)                       | The coding period is from October 1st to October 30th, during which contributors make contributions and earn points on the platform. |
+| Hacktoberfest 2024    | ![Hacktoberfest Logo](assets/hacktoberfest.png)           | Hacktoberfest is a month-long October event welcoming all skill levels to join the open-source community.     |
+
+---
+
+## 📊 Project Metrics
+
+<table align="center">
+    <thead align="center">
+        <tr>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Closed PRs</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/UppuluriKalyani/ML-Nexus?style=flat&logo=github"/></td>
+            <td><img alt="Forks" src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/UppuluriKalyani/ML-Nexus?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus?style=flat&logo=github"/></td>
+            <td><img alt="Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/UppuluriKalyani/ML-Nexus?style=flat&color=green&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- <div align="center">
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"><img src="https://img.shields.io/github/issues/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/pulls"><img src="https://img.shields.io/github/issues-pr/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/network/members"><img src="https://img.shields.io/github/forks/UppuluriKalyani/ML-Nexus"></a>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/stargazers"><img src="https://img.shields.io/github/stars/UppuluriKalyani/ML-Nexus"></a>
-<a href="https://github.com/UppuluriKalyani/ML-Nexus/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UppuluriKalyani/ML-Nexus?color=2b9348"></a>
-	
-### Welcome to the ML-NEXUS Zone⚙️⏳
+<a href="https://github.com/UppuluriKalyani/ML-Nexus/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UppuluriKalyani/ML-Nexus?color=2b9348"></a>-->
+
+
+
 </div>
 
 
