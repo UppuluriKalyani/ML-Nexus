@@ -4,7 +4,7 @@ function Card({data}) {
   return (
     
 
-<div className="w-60 h-72 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="w-60 h-72 bg-white border border-gray-200 rounded-lg shadow dark:bg-[#324655] dark:border-gray-700">
     <a href="#">
         <img className="rounded-t-lg h-36 w-full object-cover" src={data.img} alt="" />
     </a>

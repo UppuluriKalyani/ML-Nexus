@@ -9,6 +9,7 @@ function Context(props) {
     const [projects, setProjects] = useState([])
     const [info, setInfo] = useState([])
     const [langs, setLangs] = useState([])
+    const [contributors, setContributors] = useState([])
 
     const getRepo = async () => {
         try {
@@ -71,13 +72,24 @@ function Context(props) {
             console.log(error)
         }
     }
+    const getContributors = async () => {
+        try {
+            const res = await axios.get("contributors")
+            if (!res) return console.log('contributors not found');
+           const list = res.data
+           setContributors(list)
+        } catch (error) {
+            console.log(error)
+        }
+    }
     useEffect(() => {
         getRepo()
         getInfo()
+        getContributors()
     }, [])
 
     return (
-        <repoContext.Provider value={{ projects, info, langs, }}>
+        <repoContext.Provider value={{ projects, info, langs, contributors }}>
             {props.children}
         </repoContext.Provider >
     )

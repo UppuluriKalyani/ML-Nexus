@@ -19,9 +19,7 @@ import Btn from './Btn';
 
 function Statistics() {
   const { projects, info, langs } = useContext(repoContext)
-  useEffect(() => {
-    console.log(langs)
-  })
+
   const colors = [
     "#A78BFA",
     "#92C9D1",
@@ -35,7 +33,6 @@ function Statistics() {
 
   ]
   const showIcon = (name) => {
-    console.log(name)
     switch (name) {
       case "Jupyter Notebook":
        return <SiJupyter size="30px" />
@@ -88,13 +85,12 @@ function Statistics() {
             <h1 className='text-2xl'>Languages</h1>
             <div className="p-5">
             {langs.length > 0 && langs.map((lang,i) => (
-              <>
-              <div key={i} className='flex relative items-center mt-7 gap-4'>
+        
+            <div key={i} className='flex relative items-center mt-7 gap-4'>
               {showIcon(lang.name)}
               
               <h3 className='text-xl' key={i}>{lang.name}</h3>
               </div>
-              </>
             ))}
             </div>
           </div>
@@ -102,13 +98,14 @@ function Statistics() {
             <h1 className='text-2xl'>Milestones progress</h1>
             <div className="flex items-start p-4 gap-5 overflow-y-scroll max-h-[50vh] stats stats relative">
              <div className="sticky top-0 left-0">
-             <div class="relative bg-black w-64 h-64 rounded-full ">
-                <div class="absolute inset-0 rounded-full bg-[conic-gradient(from_0deg,_#A78BFA_0%,_#A78BFA_10%,_#92C9D1_10%,_#92C9D1_20%,_#34D399_20%,_#34D399_25%,_#F87171_25%,_#F87171_40%,_#FBBF24_40%,_#FBBF24_50%,_#f472b6_50%,_#f472b6_70%,_#60A5FA_70%,_#60A5FA_90%,_#D4A5A5_90%,_#D4A5A5_100%)]">
+             <div className
+             ="relative bg-black w-64 h-64 rounded-full ">
+                <div className="absolute inset-0 rounded-full bg-[conic-gradient(from_0deg,_#A78BFA_0%,_#A78BFA_10%,_#92C9D1_10%,_#92C9D1_20%,_#34D399_20%,_#34D399_25%,_#F87171_25%,_#F87171_40%,_#FBBF24_40%,_#FBBF24_50%,_#f472b6_50%,_#f472b6_70%,_#60A5FA_70%,_#60A5FA_90%,_#D4A5A5_90%,_#D4A5A5_100%)]">
                 </div>
               </div>
              </div>
               <div className="flex flex-col text-md gap-6 h-full overflow-y-auto">
-                {projects.map((p, i) => (<div className="flex items-center gap-2">
+                {projects.map((p, i) => (<div key={i} className="flex items-center gap-2">
                   <div className={`rounded-full h-6 w-6`}
                   style={{backgroundColor: i > 6 ? colors[7] : colors[i]}}
                   ></div>
@@ -128,7 +125,7 @@ function Statistics() {
       <div className="flex mt-4">
         <div className="mx-auto h-[30vh] dark:bg-[#3D5966] w-full px-6 flex items-center justify-center">
             <div className="flex flex-col items-center gap-4">
-            <h1 className='text-2xl flex items-center gap-3' ><span> <SlPuzzle /> </span> Have Something in Mind ? </h1>
+            <h1 className='text-2xl flex items-center gap-3' ><span> <SlPuzzle /></span> Have Something in Mind ? </h1>
             <Btn value={"Raise issue Now!"}/>
             </div>
           </div>
