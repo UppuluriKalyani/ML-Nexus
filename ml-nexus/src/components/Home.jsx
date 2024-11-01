@@ -5,6 +5,8 @@ import Hero from './Hero'
 import Projects from './Projects'
 import Statistics from './Statistics'
 import Contributors from './Contributors'
+import ContributeSection from './ContributeSection'
+import Footer from './Footer'
 
 function Home() {
 
@@ -15,6 +17,8 @@ function Home() {
       <Projects />
       <Statistics />
       <Contributors />
+      <ContributeSection />
+      <Footer />
     </div>
   )
 }
