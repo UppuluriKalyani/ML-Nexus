@@ -63,7 +63,7 @@ This repository is a diverse collection of projects ranging from beginner-friend
 
 **NOTE:** You're limited to earning a maximum of 200 points from this repo. Additionally, we can't accept any ideas or features if your score already exceeds 200 points.
 
-<h4>Join official <a href="https://discord.gg/n2D4RqnU">Discord Channel</a> for discussion</h4>
+<h4>Join official <a href="https://discord.gg/urFx35f5">Discord Channel</a> for discussion</h4>
 <p style="clear:both;">
 <h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing">Natural Language Processing (NLP)</a></h2>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
@@ -198,7 +198,7 @@ You can refer to the following articles on the basics of Git and Github.
   <br>
   <br>
   
- ### Troubleshooting
+ ## Troubleshooting 🛠️
 
 This section addresses some common issues you may encounter while setting up or using ML-Nexus. If you run into problems not listed here, please feel free to consult our community or open a new issue.
 
@@ -369,7 +369,7 @@ After submitting a pull request, please give us time to review it. If everything
 <p>Please do! Contributions<a href="https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> <a href=``https://github.com/UppuluriKalyani/ML-Nexus/issues"></a> and <a href=" ">pull requests</a> are welcome.Contributors are expected to adhere to the<a href=``https://github.com/UppuluriKalyani/ML-Nexus/blob/master/CODE_OF_CONDUCT.md/"> Code of Conduct</a>.
 </p>
 <p>
-Jump into our <a href="https://discord.gg/n2D4RqnU">Discord</a>!
+Jump into our <a href="https://discord.gg/urFx35f5">Discord</a>!
 </p>
 <p>
 
