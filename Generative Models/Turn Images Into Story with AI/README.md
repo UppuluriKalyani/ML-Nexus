@@ -24,7 +24,7 @@ Frameworks: TensorFlow, Keras (for image analysis and NLP), React (for frontend)
 Libraries: OpenCV, Pillow (for image processing), NLTK, spaCy (for NLP)
 Hardware: GPU acceleration recommended for faster image processing and story generation
 Installation
-Clone the repository: git clone https://github.com/your-username/turn-images-into-story-with-ai.git
+Clone the repository: git clone https://github.com/NANDAGOPALNG/ML-Nexus/tree/main/Generative%20Models/Turn%20Images%20Into%20Story%20with%20AI
 Install dependencies: pip install -r requirements.txt
 Set up the environment: python setup.py
 Run the application: python app.py
