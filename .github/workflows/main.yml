@@ -1,0 +1,36 @@
+name: Assignee Progress Check
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  progress-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: List open issues with assignees
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+            
+            for (const issue of issues) {
+              if (issue.assignees.length > 0) {
+                let assigneeTags = issue.assignees.map(assignee => `@${assignee.login}`).join(', ');
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `Hey ${assigneeTags}, can you share the progress of this project?`
+                });
+              }
+            }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
