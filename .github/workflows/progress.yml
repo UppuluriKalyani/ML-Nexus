@@ -1,0 +1,90 @@
+name: Issue Progress Check
+
+on:
+  workflow_dispatch: # Only manual trigger
+
+jobs:
+  check-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get date from 2 weeks ago
+        id: date
+        run: |
+          echo "two_weeks_ago=$(date -d '2 weeks ago' '+%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Query issues and create comments
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              const twoWeeksAgo = new Date(process.env.two_weeks_ago);
+              
+              console.log(`Checking issues for repository: ${context.repo.owner}/${context.repo.name}`);
+              
+              const { data: issues } = await github.rest.issues.listForRepo({
+                owner: context.repo.owner,
+                repo: context.repo.name,
+                state: 'open',
+                since: twoWeeksAgo.toISOString(),
+                per_page: 100  // Increase items per page
+              });
+              
+              console.log(`Found ${issues.length} issues from the past 2 weeks`);
+              
+              if (issues.length === 0) {
+                console.log('No issues found in the specified time period.');
+                return;
+              }
+              
+              for (const issue of issues) {
+                try {
+                  // Skip if no assignees
+                  if (!issue.assignees || issue.assignees.length === 0) {
+                    console.log(`Skipping issue #${issue.number} - no assignees`);
+                    continue;
+                  }
+                  
+                  // Create mention string for all assignees
+                  const assigneeMentions = issue.assignees
+                    .map(assignee => `@${assignee.login}`)
+                    .join(' ');
+                  
+                  console.log(`Creating comment on issue #${issue.number} for ${assigneeMentions}`);
+                  
+                  // Create and post comment
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.name,
+                    issue_number: issue.number,
+                    body: `Hey ${assigneeMentions}, can you share the progress of this project?`
+                  });
+                  
+                  // Add small delay to avoid rate limiting
+                  await new Promise(resolve => setTimeout(resolve, 1000));
+                } catch (issueError) {
+                  console.error(`Error processing issue #${issue.number}:`, issueError);
+                }
+              }
+              
+              console.log('Finished processing all issues');
+              
+            } catch (error) {
+              console.error('Error occurred:', error);
+              
+              if (error.status === 404) {
+                console.error('Repository not found or you don\'t have access to it.');
+                console.error('Please check:');
+                console.error('1. The repository name is correct');
+                console.error('2. You have the necessary permissions');
+                console.error('3. The repository exists');
+              }
+              
+              throw error;
+            }
