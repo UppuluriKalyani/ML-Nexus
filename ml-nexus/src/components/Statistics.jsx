@@ -77,11 +77,11 @@ function Statistics() {
     <>
       <div className="p-10 ">
         <h1 className='text-4xl font-bold '>Repository Statistics</h1>
-        <div className="flex gap-8 p-10">
+        <div className="md:flex-row flex items-center flex-col gap-8 p-10">
           {info && info.map((data, i) => <Stats data={data} key={i} index={i} />)}
         </div>
-        <div className="px-20 flex gap-4">
-          <div className="basis-1/2 h-[60vh] dark:bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 stats overflow-y-auto">
+        <div className="md:px-20 px-2 md:flex md:flex-row flex-col flex gap-4">
+          <div className="md:basis-1/2 md:h-[60vh] h-[50vh] dark:bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 stats overflow-y-auto">
             <h1 className='text-2xl'>Languages</h1>
             <div className="p-5">
             {langs.length > 0 && langs.map((lang,i) => (
@@ -96,17 +96,17 @@ function Statistics() {
           </div>
           <div className="basis-1/2 h-[60vh] dark:bg-[#324655] md:w-1/2 px-6 rounded-lg py-4 overflow-hidden relative">
             <h1 className='text-2xl'>Milestones progress</h1>
-            <div className="flex items-start p-4 gap-5 overflow-y-scroll max-h-[50vh] stats stats relative">
-             <div className="sticky top-0 left-0">
+            <div className="flex lg:flex-row flex-col  lg:items-start p-4 gap-5 overflow-y-scroll max-h-[50vh] stats stats relative">
+             <div className="sticky mx-auto top-0 left-0">
              <div className
-             ="relative bg-black w-64 h-64 rounded-full ">
+             ="relative bg-black lg:w-64 lg:h-64 w-32 h-32 rounded-full ">
                 <div className="absolute inset-0 rounded-full bg-[conic-gradient(from_0deg,_#A78BFA_0%,_#A78BFA_10%,_#92C9D1_10%,_#92C9D1_20%,_#34D399_20%,_#34D399_25%,_#F87171_25%,_#F87171_40%,_#FBBF24_40%,_#FBBF24_50%,_#f472b6_50%,_#f472b6_70%,_#60A5FA_70%,_#60A5FA_90%,_#D4A5A5_90%,_#D4A5A5_100%)]">
                 </div>
               </div>
              </div>
               <div className="flex flex-col text-md gap-6 h-full overflow-y-auto">
                 {projects.map((p, i) => (<div key={i} className="flex items-center gap-2">
-                  <div className={`rounded-full h-6 w-6`}
+                  <div className={`rounded-full h-3 w-3 lg:h-6 lg:w-6`}
                   style={{backgroundColor: i > 6 ? colors[7] : colors[i]}}
                   ></div>
                   <h4 className=' text-center'>{p.name}</h4>
@@ -126,7 +126,7 @@ function Statistics() {
         <div className="mx-auto h-[30vh] dark:bg-[#3D5966] w-full px-6 flex items-center justify-center">
             <div className="flex flex-col items-center gap-4">
             <h1 className='text-2xl flex items-center gap-3' ><span> <SlPuzzle /></span> Have Something in Mind ? </h1>
-            <Btn value={"Raise issue Now!"}/>
+            <Btn value={{name: "Raise issue Now!", ref: "https://github.com/UppuluriKalyani/ML-Nexus/issues/new/choose"}}/>
             </div>
           </div>
         </div>

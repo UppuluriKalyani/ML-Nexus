@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -22,10 +23,10 @@ const Footer = () => {
             <a href="https://github.com/UppuluriKalyani" target="_blank" rel="noopener noreferrer" className="hover:text-[#61B3A0]">
               <i className="text-lg"> <FaGithub /> </i>
             </a>
-            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#61B3A0]">
-              <i className="text-lg"> <FaTwitter /> </i>
+            <a href="mailto:kalyaniuppuluri7@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#61B3A0]">
+              <i className="text-lg"> <MdEmail /> </i>
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#61B3A0]">
+            <a href="https://www.linkedin.com/in/kalyani-uppuluri-522419257/" target="_blank" rel="noopener noreferrer" className="hover:text-[#61B3A0]">
               <i className=" text-lg"><FaLinkedin /> </i>
             </a>
           </div>

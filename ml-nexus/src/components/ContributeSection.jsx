@@ -11,7 +11,7 @@ const ContributeSection = () => {
         <p className="text-base md:text-lg mb-8">
           Join us in building something great. Your unique skills and knowledge can make a difference!
         </p>
-        <Btn className='mx-auto' value="Contribute Now" /> 
+        <Btn className='mx-auto md:w-1/4 w-32 flex items-center justify-center hover:bg-red-200 hover:text-yellow-500' value={{name:"Contribute Now", ref: "https://github.com/UppuluriKalyani/ML-Nexus/issues"}} /> 
       </div>
     </section>
   );
