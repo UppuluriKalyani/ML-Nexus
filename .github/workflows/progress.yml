@@ -1,42 +1,63 @@
-name: Assignee Progress Check
+name: Issue Progress Check
 
 on:
-  workflow_dispatch:  # Allows manual triggering of the workflow
+  workflow_dispatch: # Only manual trigger
 
 jobs:
-  progress-check:
+  check-issues:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: List open issues older than 2 weeks with assignees
-        uses: actions/github-script@v6
+      - name: Get date from 2 weeks ago
+        id: date
+        run: |
+          echo "two_weeks_ago=$(date -d '2 weeks ago' '+%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Query issues and create comments
+        uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const twoWeeksAgo = new Date();
-            twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
-
-            const issues = await github.paginate(github.rest.issues.listForRepo, {
+            const twoWeeksAgo = new Date(process.env.two_weeks_ago);
+            
+            const issues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open'
+              repo: context.repo.name,
+              state: 'open',
+              since: twoWeeksAgo.toISOString()
             });
             
-            for (const issue of issues) {
-              const issueCreatedAt = new Date(issue.created_at);
-              
-              // Check if the issue is older than two weeks and has assignees
-              if (issueCreatedAt < twoWeeksAgo && issue.assignees.length > 0) {
-                let assigneeTags = issue.assignees.map(assignee => `@${assignee.login}`).join(', ');
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issue.number,
-                  body: `Hey ${assigneeTags}, can you share the progress of this project?`
-                });
+            console.log(`Found ${issues.data.length} issues from the past 2 weeks`);
+            
+            for (const issue of issues.data) {
+              // Skip if no assignees
+              if (!issue.assignees || issue.assignees.length === 0) {
+                console.log(`Skipping issue #${issue.number} - no assignees`);
+                continue;
               }
+              
+              // Create mention string for all assignees
+              const assigneeMentions = issue.assignees
+                .map(assignee => `@${assignee.login}`)
+                .join(' ');
+              
+              console.log(`Creating comment on issue #${issue.number} for ${assigneeMentions}`);
+              
+              // Create and post comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.name,
+                issue_number: issue.number,
+                body: `Hey ${assigneeMentions}, can you share the progress of this project?`
+              });
+              
+              // Add small delay to avoid rate limiting
+              await new Promise(resolve => setTimeout(resolve, 1000));
             }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
+            console.log('Finished processing all issues');
