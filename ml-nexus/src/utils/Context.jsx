@@ -15,7 +15,7 @@ function Context(props) {
         try {
             const result = await axios.get('contents')
             if (!result) return console.log('not found')
-            const projectsdata = result.data.filter((item, i) => item.type === 'dir' && item.name !== '.github')
+            const projectsdata = result.data.filter((item, i) => item.type === 'dir' && item.name !== '.github' && item.name !== 'ml-nexus')
             setProjects(projectsdata)
 
         } catch (error) {
