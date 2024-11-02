@@ -1,7 +1,7 @@
 name: Issue Progress Reminder
 
 on:
-  workflow_dispatch: # Allows the workflow to be manually triggered
+  workflow_dispatch:
   issues:
     types:
       - opened
@@ -15,7 +15,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { data: issues } = await github.issues.listForRepo({
+            const issues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
@@ -23,11 +23,11 @@ jobs:
             });
 
             const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
-            for (const issue of issues) {
+            for (const issue of issues.data) {
               if (new Date(issue.created_at) < twoWeeksAgo && issue.assignees.length > 0) {
                 for (const assignee of issue.assignees) {
                   const commentBody = `Hey @${assignee.login}, can you share the progress of this project?`;
-                  await github.issues.createComment({
+                  await github.rest.issues.createComment({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
                     issue_number: issue.number,
