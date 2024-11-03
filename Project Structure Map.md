@@ -1,3 +1,4 @@
+```
 ML-Nexus
 │
 ├── assets
@@ -326,4 +327,5 @@ ML-Nexus
 ├──GENERATIVE_AI_ROADMAP.md
 ├──LICENCE
 ├──ML_LIBRARIES.md
-└──README.md 
+└──README.md
+```
