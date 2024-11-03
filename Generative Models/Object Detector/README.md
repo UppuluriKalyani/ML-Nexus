@@ -29,7 +29,7 @@ OpenCV
 1.Clone the repository:
 
 
-git clone https://github.com/your-username/object-detector.git
+git clone https://github.com/NANDAGOPALNG/ML-Nexus/tree/main/Generative%20Models/Object%20Detector
 
 2.Install the required dependencies:
 
