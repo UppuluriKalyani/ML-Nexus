@@ -38,6 +38,12 @@ function Hero() {
       desc: "Contributors can work on analyzing temporal data, building models for stock price prediction, climate forecasting, or IoT sensor data analysis using LSTM or GRU networks.",
       ref: "https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Time%20Series%20Analysis"
     },
+    {
+        title: "Prediction Models",
+        img: "https://github.com/UppuluriKalyani/ML-Nexus/raw/main/img/gm.jpeg",
+        desc: "This includes working on projects related to Prediction Models.",
+        ref: "https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Prediction%20Models"
+    },
   ];
 
   return (
@@ -57,19 +63,35 @@ function Hero() {
           <Btn value={{name: "Contribute", ref: "https://github.com/UppuluriKalyani/ML-Nexus/issues"}} git={true} />
         </div>
 
-
-        <div className="hidden lg:flex justify-evenly">
-          {info.map((data, i) => <Card data={data} key={i} />)}
+        <div className="hidden lg:flex justify-evenly gap-6">
+          {/* Desktop View with updated gap */}
+          {info.map((data, i) => (
+            <div
+              key={i}
+              className="card w-72 bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:translate-y-2 hover:shadow-xl hover:scale-105 ease-in-out duration-300"
+            >
+              <Card data={data} />
+            </div>
+          ))}
         </div>
 
         <div className="block lg:hidden">
-          <Swiper spaceBetween={10} navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }} slidesPerView={1}>
+          {/* Mobile View with Swiper */}
+          <Swiper
+            spaceBetween={10} // ensures spacing between slides
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }}
+            slidesPerView={1}
+          >
             {info.map((data, i) => (
               <SwiperSlide key={i}>
-                <Card data={data} />
+                <div
+                  className="card w-full bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:translate-y-2 hover:shadow-xl hover:scale-105 ease-in-out duration-300"
+                >
+                  <Card data={data} />
+                </div>
               </SwiperSlide>
             ))}
             <div className="swiper-button-next custom-arrow"></div>
