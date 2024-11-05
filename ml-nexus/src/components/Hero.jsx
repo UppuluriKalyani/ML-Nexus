@@ -49,8 +49,8 @@ function Hero() {
   return (
     <div className="h-full w-full flex justify-center flex-col">
       <div className="flex mx-auto flex-col items-center">
-        <h1 className='text-2xl mt-16 text-center flex items-center'>
-          Welcome To <span className='dark:text-green-400 inline-block text-3xl lg:text-9xl'>ML Nexus</span>
+        <h1 className='text-2xl mt-8 text-center flex items-center'>
+          Welcome To ML Nexus
         </h1>
         <p className='w-[90vw] lg:w-[65vw] text-center mt-4'>
           This repository is dedicated to providing top-quality machine learning tools and resources. Track our milestones, see top programming languages in use, and monitor community progress—all in one place.
