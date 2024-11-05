@@ -1,23 +1,18 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from '../components/Home'
-import About from '../components/About'
-import Contact from '../components/Contact'
-import Nav from '../components/Nav'
+// utils/routing.js
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from '../components/Home';
+import About from '../components/About';
+import Contact from '../components/Contact';
 
-function routing() {
+const Routing = () => {
   return (
-    <div>
-      {/* The Nav component is rendered on all pages */}
-      <Nav />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
-}
+};
 
-export default routing
+export default Routing;

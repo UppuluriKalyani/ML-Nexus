@@ -17,8 +17,8 @@ function Nav() {
       {/* Desktop Navigation Links */}
       <div className="hidden md:flex gap-10">
         <Link className='hover:text-[#61B3A0]' to="/">Home</Link>
-        <Link className='hover:text-[#61B3A0]' to="/About">About</Link>
-        <Link className='hover:text-[#61B3A0]' to="/Contact">Contact</Link>
+        <Link className='hover:text-[#61B3A0]' to="/about">About</Link>
+        <Link className='hover:text-[#61B3A0]' to="/contact">Contact</Link>
       </div>
 
       {/* Hamburger Menu Button */}
