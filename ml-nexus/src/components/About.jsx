@@ -27,9 +27,9 @@ function About() {
           {/* Team member example */}
           <div className="max-w-xs mx-4 mb-6">
             <div className="bg-[#324655] rounded-lg shadow-md p-6">
-              <img src="https://via.placeholder.com/150" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4" />
-              <h3 className="text-xl font-semibold text-[#B9D1DA]">John Doe</h3>
-              <p className="text-[#B9D1DA]">Machine Learning Engineer</p>
+              <img src="/kp.jpg" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4" />
+              <h3 className="text-xl font-semibold text-[#B9D1DA]">Kalyani Uppuluri</h3>
+              <p className="text-[#B9D1DA]">ML Enthusiast</p>
             </div>
           </div>
           {/* Add more team members as needed */}
