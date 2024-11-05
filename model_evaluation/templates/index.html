@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Evaluation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Model Evaluation and Benchmarking</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="dataset" required>
+        <button type="submit">Upload Dataset</button>
+    </form>
+
+    <form action="/evaluate" method="post">
+        <select name="model_name" required>
+            <option value="model1">Model 1</option>
+            <option value="model2">Model 2</option>
+            <!-- Add model options dynamically or statically -->
+        </select>
+        <select name="dataset_name" required>
+            {% for dataset in datasets %}
+                <option value="{{ dataset }}">{{ dataset }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Evaluate Model</button>
+    </form>
+</body>
+</html>
