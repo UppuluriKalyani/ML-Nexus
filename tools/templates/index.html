@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Nexus - Data Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Upload Your Dataset</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if plots %}
+        <h2>Visualizations</h2>
+        <div id="plots-container">
+            {% if plots.scatter_plot %}
+                <div>
+                    <h3>Scatter Plot</h3>
+                    {{ plots.scatter_plot|safe }}
+                </div>
+            {% endif %}
+            {% if plots.correlation_heatmap %}
+                <div>
+                    <h3>Correlation Heatmap</h3>
+                    <img src="{{ plots.correlation_heatmap }}" alt="Correlation Heatmap">
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+</body>
+</html>
