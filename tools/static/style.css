@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#plots-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#plots-container div {
+    margin-top: 20px;
+}
