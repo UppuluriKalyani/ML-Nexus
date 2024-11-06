@@ -26,4 +26,8 @@ These instructions will guide you through setting up the Human Following Robot o
   - **Arduino IDE** for programming the microcontroller
   - MobileNet SSD v1 (COCO) model in TensorFlow Lite format
 
+### Requirements
+```bash
+pip install -r requirements.txt
+```
 
