@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className="bg-[#D6EAE8] dark:bg-[#1F2A33] text-[#28333F] dark:text-[#AFC2CB] py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          
+
           <div className="text-xl font-semibold mb-4 md:mb-0">
             ML Nexus
           </div>
 
           <div className="flex space-x-6 text-sm md:text-base mb-4 md:mb-0">
-            <a href="#about" className="hover:text-[#61B3A0]">About Us</a>
+            <a href="/about" className="hover:text-[#61B3A0]">About Us</a>
             <a href="#projects" className="hover:text-[#61B3A0]">Projects</a>
             <a href="#contributors" className="hover:text-[#61B3A0]">Contributors</a>
-            <a href="#contact" className="hover:text-[#61B3A0]">Contact</a>
+            <a href="/contact" className="hover:text-[#61B3A0]">Contact</a>
           </div>
 
           <div className="flex space-x-4">
