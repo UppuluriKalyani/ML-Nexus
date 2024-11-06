@@ -1,25 +1,42 @@
-import React, { useContext, useEffect } from 'react'
-import Btn from './Btn'
-import {repoContext} from '../utils/Context'
-import { motion } from 'framer-motion'
+import React, { useContext } from 'react';
+import Btn from './Btn';
+import { repoContext } from '../utils/Context';
+import { motion } from 'framer-motion';
+
 function Projects() {
+  const { projects } = useContext(repoContext);
 
-    const {projects} = useContext(repoContext)
-
-  
   return (
-    <motion.div whileHover={{padding: "25px"}} className="p-10">
-        <h1 className='text-4xl font-bold -tracking-normal leading-none mb-6'>Projects</h1>
-        <div className="flex flex-wrap gap-7 items-center justify-center">
-      {projects.map((p,i) => (
-          <motion.div whileHover={{padding: "30px", backgroundColor: "#3A5064"}} key={i} className="py-5 px-5 hover:text-[#B9D1DA] h-40 w-42 md:h-56 md:w-80 bg-[#324655] rounded-lg flex flex-col justify-between items-center">
-          <h1 className='text-3xl'>{p.name}</h1>
-          <Btn className=' rounded-md hover:bg-red-100 ' value={{name:"View Models", ref: p.html_url }} />
-      </motion.div>
-      ))}
-        </div>
+    <motion.div
+      className="p-2 max-w-7xl mx-auto"
+    >
+      <h1 className="text-4xl font-extrabold leading-tight text-white mb-8 text-center">
+        Projects
+      </h1>
+
+      {/* Grid Container: Controls the number of columns in each row */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+        {projects.map((p, i) => (
+          <motion.div
+            whileHover={{
+              scale: 1.05,
+              backgroundColor: '#3A5064',
+            }}
+            key={i}
+            className="py-6 px-6 bg-[#324655] rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-[#3A5064] hover:shadow-xl flex flex-col justify-between items-center"
+          >
+            <h2 className="text-xl font-semibold text-white text-center mb-4">
+              {p.name}
+            </h2>
+            <Btn
+              className="rounded-md bg-blue-500 text-white py-2 px-4 mt-4 transition-colors duration-300 ease-in-out hover:bg-blue-600"
+              value={{ name: 'View Models', ref: p.html_url }}
+            />
+          </motion.div>
+        ))}
+      </div>
     </motion.div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
