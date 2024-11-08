@@ -305,31 +305,6 @@ For further assistance, feel free to reach out to our community or check the [is
 
 </br>
 
-
-## ❤️ Project Admin
-
-<table>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/UppuluriKalyani">
-				<img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/a69f9f5e297b91383335f908a66a17e0.jpg" width="100px" alt="" />
-				<br /> <sub><b>Kalyani</b></sub>
-			</a>
-			<br /> <a href="https://github.com/UppuluriKalyani"> 
-		👑 Admin
-	    </a>
-		</td>
-	</tr>
-</table>
-
-
-## 💻 Project Mentors
-
-| <img src="https://github.com/user-attachments/assets/7132a875-9a79-4536-b4c2-7b9818c8c6c4" width="80px" /> | <img src="https://avatars.githubusercontent.com/u/48355572?v=4" width="80px" /> |
-|:---:|:---:|
-| [Sai Nivedh V](https://github.com/SaiNivedh26) <br> 🔧 Mentor | [Pratyay Banerjee](https://github.com/Neilblaze) <br> 🔧 Mentor |
-
-
 ## Contributors👩‍💻👨‍💻
 
 <p>
@@ -350,18 +325,6 @@ For further assistance, feel free to reach out to our community or check the [is
 [![Forkers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/forks/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/network/members)
 
 </div>
-
-
-
-## Proposing Ideas💡 
-If you want to propose an idea, please create an issue and tag @UppuluriKalyani, @Neilblaze, and @SaiNivedh in the issue. Kindly wait until the issue is assigned to you before starting any work.
-
-Assignments will be made on a first-come, first-served basis—whoever requests the issue first will be assigned. Please cooperate and help us improve our project!
-
-
-- **Pull Requests:**
-After submitting a pull request, please give us time to review it. If everything looks good, we will merge it automatically. If any changes are needed, we’ll request them. Please be patient while we go through this process.
-
    
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
