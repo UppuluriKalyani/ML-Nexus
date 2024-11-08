@@ -13,10 +13,10 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-6 text-sm md:text-base mb-4 md:mb-0">
-            <a href="/about" className="hover:text-[#61B3A0]">About Us</a>
+            <a href="/About" className="hover:text-[#61B3A0]">About Us</a>
             <a href="#projects" className="hover:text-[#61B3A0]">Projects</a>
             <a href="#contributors" className="hover:text-[#61B3A0]">Contributors</a>
-            <a href="/contact" className="hover:text-[#61B3A0]">Contact</a>
+            <a href="/Contact" className="hover:text-[#61B3A0]">Contact</a>
           </div>
 
           <div className="flex space-x-4">
