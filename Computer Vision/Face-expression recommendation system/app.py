@@ -24,7 +24,7 @@ def camera():
     i=0
 
     GR_dict={0:(0,255,0),1:(0,0,255)}
-    model = tf.keras.models.load_model('final_model.h5')
+    model = tf.keras.models.load_model('final_model_cnn.h5')
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     output=[]
     cap = cv2.VideoCapture(0)
