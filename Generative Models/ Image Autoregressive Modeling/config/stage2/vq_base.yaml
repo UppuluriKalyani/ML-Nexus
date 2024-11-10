@@ -1,0 +1,64 @@
+# @package _group_
+
+common:
+  fp16: true
+  log_format: json
+  log_interval: 100
+  min_loss_scale: 1e-6
+  user_dir: fairseq_user
+
+checkpoint:
+  save_interval: 1
+  save_interval_updates: 0
+  keep_last_epochs: 1
+  keep_interval_updates: -1
+  no_epoch_checkpoints: true
+
+task:
+  _name: image_generation_stage2
+  input_size: 256
+  source_vocab_size: 8192
+  target_vocab_size: 1024
+  augmentation: randcrop
+
+dataset:
+  train_subset: train
+  valid_subset: val
+  num_workers: 8
+  batch_size: 256
+  skip_invalid_size_inputs_valid_test: true
+  required_batch_size_multiple: 1
+
+criterion:
+  _name: ce_loss_ls
+  label_smoothing: 0.1
+
+optimization:
+  max_update: 125000
+  lr: [5e-4]
+  update_freq: [1]
+  clip_norm: 1.0
+
+optimizer:
+  _name: adam
+  adam_betas: [0.9,0.98]
+  weight_decay: 0.01
+
+lr_scheduler:
+  _name: inverse_sqrt
+  warmup_updates: 6250
+  warmup_init_lr: 1e-7
+
+model:
+  _name: st2vtlm_vq
+  vqgan_ckpt_path: models/vqgan_jax_strongaug.ckpt
+  vqgan_config_path: config/vqgan/vqgan.yaml
+  decoder_embed_dim: 1024
+  decoder_output_dim: 1024
+  decoder_input_dim: 1024
+  decoder_ffn_embed_dim: 4096
+  decoder_layers: 16
+  decoder_attention_heads: 16
+  activation_fn: gelu
+  decoder_learned_pos: true
+
