@@ -17,8 +17,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }} 
         labels: |
-          gssoc-ext
-          hacktoberfest-accepted
+          ml-nexus
 
     - name: Add labels to new pull requests
       if: github.event_name == 'pull_request_target'
