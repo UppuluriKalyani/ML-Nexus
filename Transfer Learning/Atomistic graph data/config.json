@@ -1,0 +1,26 @@
+{
+  "_name_or_path": "/mnt/data2/s2ef_all_10epochs_weights/checkpoint-292950",
+  "architectures": [
+    "AtomformerModel"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_atomformer.AtomformerConfig",
+    "AutoModel": "modeling_atomformer.AtomformerModel"
+  },
+  "bos_token_id": 120,
+  "cls_token_id": 122,
+  "depth": 12,
+  "dim": 768,
+  "dropout": 0.0,
+  "eos_token_id": 121,
+  "gradient_checkpointing": false,
+  "k": 128,
+  "mask_token_id": 0,
+  "mlp_ratio": 4,
+  "model_type": "atomformer",
+  "num_heads": 32,
+  "pad_token_id": 119,
+  "torch_dtype": "float32",
+  "transformers_version": "4.40.0",
+  "vocab_size": 123
+}
