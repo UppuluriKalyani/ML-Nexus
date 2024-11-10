@@ -13,13 +13,20 @@ function Nav() {
   return (
     <div className="w-full h-20 p-8 flex items-center justify-between border-b border-b-slate-100 bg-[#324655]">
       {/* Logo */}
-      <h1 className="text-xl font-bold tracking-tight text-white ml-4">ML Nexus</h1>
+      <div className="flex items-center ml-4">
+        <img
+          src="mlnexus.jpg"  // Replace this URL with your logo image URL or path
+          alt="ML Nexus Logo"
+          className="h-10 mr-2"  // Adjust size of logo here
+        />
+        <h1 className="text-xl font-bold tracking-tight text-white">ML Nexus</h1>
+      </div>
 
       {/* Desktop Navigation Links */}
       <div className="hidden md:flex gap-10">
-        <Link className='text-white hover:text-[#61B3A0]' to="/">Home</Link>
-        <Link className='text-white hover:text-[#61B3A0]' to="/about">About</Link>
-        <Link className='text-white hover:text-[#61B3A0]' to="/contact">Contact</Link>
+        <Link className="text-white hover:text-[#61B3A0]" to="/">Home</Link>
+        <Link className="text-white hover:text-[#61B3A0]" to="/about">About</Link>
+        <Link className="text-white hover:text-[#61B3A0]" to="/contact">Contact</Link>
       </div>
 
       {/* Hamburger Menu Button */}
@@ -33,9 +40,9 @@ function Nav() {
       {/* Mobile Menu - Shows when isOpen is true */}
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-[#324655] border-t border-slate-100 flex flex-col items-center py-5 gap-4 md:hidden">
-          <Link className='text-white hover:text-[#61B3A0]' to="/" onClick={toggleMenu}>Home</Link>
-          <Link className='text-white hover:text-[#61B3A0]' to="/About" onClick={toggleMenu}>About</Link>
-          <Link className='text-white hover:text-[#61B3A0]' to="/Contact" onClick={toggleMenu}>Contact</Link>
+          <Link className="text-white hover:text-[#61B3A0]" to="/" onClick={toggleMenu}>Home</Link>
+          <Link className="text-white hover:text-[#61B3A0]" to="/about" onClick={toggleMenu}>About</Link>
+          <Link className="text-white hover:text-[#61B3A0]" to="/contact" onClick={toggleMenu}>Contact</Link>
         </div>
       )}
     </div>

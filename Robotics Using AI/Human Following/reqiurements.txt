@@ -1,0 +1,10 @@
+
+tensorflow-lite==2.11.0
+opencv-python==4.7.0.68
+numpy==1.23.5
+RPi.GPIO==0.7.0
+pyserial==3.5
+Pillow==9.3.0
+Adafruit-Motor-HAT==1.0.4
+SpeechRecognition==3.8.1
+matplotlib==3.6.0
