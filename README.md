@@ -307,20 +307,6 @@ For further assistance, feel free to reach out to our community or check the [is
   <img src="https://api.vaunt.dev/v1/github/entities/UppuluriKalyani/repositories/ML-Nexus/contributors?format=svg&limit=54" width="700" height"250" />
 </p>
 
-## &#8627; Stargazers🌟
-
-<div align='center'>
-
-[![Stargazers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/stars/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/stargazers)
-
-</div>
-
-## &#8627; Forkers🍴
-<div align='center'>
-
-[![Forkers repo roster for @UppuluriKalyani/ML-Nexus](https://reporoster.com/forks/UppuluriKalyani/ML-Nexus)](https://github.com/UppuluriKalyani/ML-Nexus/network/members)
-
-</div>
    
 <p style="clear:both;">
 <h1><a name="contributing"></a><a name="community"></a> <a href="https://github.com/UppuluriKalyani/ML-Nexus">Community</a> and <a href="https://github.com/UppuluriKalyani/ML-nexus/blob/master/CONTRIBUTING.md">Contributing</a></h1>
