@@ -58,7 +58,7 @@ A dynamic hub of Machine Learning innovations, where hands-on projects and colla
 
 This repository is a diverse collection of projects ranging from beginner-friendly models to advanced AI applications. Whether you're new to the field or a seasoned expert, there's something for everyone to contribute to. Dive into neural networks, computer vision, natural language processing (NLP), and more. Join our vibrant community, share your ideas, and help shape the future of AI—together!
 
-<h4>Join official <a href="https://discord.gg/urFx35f5">Discord Channel</a> for discussion</h4>
+<h4>Join official <a href="https://(https://discord.gg/BHtENPd2q)">Discord Channel</a> for discussion</h4>
 <p style="clear:both;">
 <h2><a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing">Natural Language Processing (NLP)</a></h2>
 <a href="https://github.com/UppuluriKalyani/ML-Nexus/tree/main/Natural%20Language%20Processing"><img src="https://github.com/UppuluriKalyani/ML-Nexus/blob/main/img/nlp.jpg"
